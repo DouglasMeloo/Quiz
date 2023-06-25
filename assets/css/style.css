@@ -69,3 +69,11 @@ select {
 .hide {
     display: none;
 }
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
