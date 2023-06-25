@@ -104,3 +104,13 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.question-wrapper .number {
+    color: #c4c4c4;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.question-wrapper .number .total {
+    color: #8d8d8d;
+    font-size: 19px;
+}
