@@ -32,6 +32,16 @@ body {
 label {
     display: block;
     color: #c4c4c4;
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 5px;
+}
+select {
+    background-color: #c4c4c4;
+    color: #000;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
 }
