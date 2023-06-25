@@ -55,6 +55,7 @@ select {
     border-radius: 5px;
     font-size: 25px;
     font-weight: 800;
+    margin-top: 50px;
     cursor: pointer;
     transition: all 0.2s linear;    
 }
@@ -64,4 +65,7 @@ select {
 .btn:disabled {
     background-color: #be1111;
     cursor: not-allowed;
+}
+.hide {
+    display: none;
 }
