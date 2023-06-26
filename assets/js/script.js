@@ -159,7 +159,7 @@ const checkAnswer = () => {
     nextBtn.style.display = "block";
 };
 
-nextBtn.addEventListener("click" , () => {
+nextBtn.addEventListener("click", () => {
     nextQuestion();
     //show submit btn on next question
     nextBtn.style.display = "none";
@@ -174,4 +174,15 @@ const nextQuestion = () => {
         //if not more question, show Score
         showScore();
     }
-}
+};
+
+const endScreen = document.querySelector(".end-screen"),
+      finalScore = document.querySelector(".final-score"),
+      totalScore = document.querySelector("total-score");
+
+const showScore = () => {
+    endScreen.classList.remove("hide");
+    quiz.classList.add("hide");
+    finalScore.innerHTML = score;
+    totalScore.innerHTML = `/${questions / length}`;
+};
