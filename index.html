@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Knowlegde quiz">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Knowlegde Quiz</title>
 </head>
 <body>
     <div class="container">
-        <div class="start-screen">
+        <div class="start-screen hide">
             <h1 class="heading">Knowlegde Quiz</h1>
             <div class="settings">
                 <label for="num-questions">Number of Questions</label>
@@ -60,7 +61,7 @@
             </div>
             <button class="btn start">Start Quiz</button>
         </div>
-        <div class="quiz hide">
+        <div class="quiz">
             <div class="timer">
                 <div class="progress">
                     <div class="progress-bar"></div>
@@ -76,9 +77,9 @@
             </div>
             <div class="answer-wrapper">
                 <div class="answer selected">
-                    <span class="text">Answer</span>
-                    <span class="checkbox">
-                        <span class="icon">V</span>
+                      <span class="text">Answer</span>
+                      <span class="checkbox">
+                      <span class="icon">V</span>
                     </span>
                 </div>
                 <div class="answer correct">
@@ -90,7 +91,7 @@
                 <div class="answer wrong">
                     <span class="text">Answer</span>
                     <span class="checkbox">
-                        <span class="icon">V</span>
+                      <span class="icon">V</span>
                     </span>
                 </div>
             </div>
