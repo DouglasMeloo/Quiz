@@ -147,10 +147,25 @@ const checkAnswer = () => {
             }
         });
     }
-    
+
     //block user to select further answer
     const answerDiv = document.querySelectorAll(".answer");
     answerDiv.forEach((answer) => {
         answer.classList.add("checked");
     });
+
+    //show nextBtn after submit
+    submitBtn.style.display = "none";
+    nextBtn.style.display = "block";
 };
+
+nextBtn.addEventListener("click" , () => {
+    nextQuestion();
+});
+
+const nextQuestion = () => {
+    if (currentQuestion < questions.length) {
+        currentQuestion++;
+        showQuestion(questions[currentQuestion - 1]);
+    }
+}
