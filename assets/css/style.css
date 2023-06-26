@@ -152,3 +152,8 @@ select {
     background-color: #1ac963;
     border-color: #1ac963;
 }
+.answer.selected .checkbox .icon {
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 900;
+}
