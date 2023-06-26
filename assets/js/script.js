@@ -105,10 +105,36 @@ const startTimer = (time) => {
     }, 1000);
 };
 
-submitBtn.addEventListener("click" , () => {
+submitBtn.addEventListener("click", () => {
     checkAnswer();
 });
 
 const checkAnswer = () => {
+    //clear interval when check answer submited
     clearInterval(timer);
+
+    const selectedAnswer = document.querySelector(".answer.selected");
+    //any answer is selected
+    if (selectedAnswer) {
+        const answer = selectedAnswer.querySelector(".text");
+        if (answer === questions[currentQuestion - 1].correct_answer) {
+            //if answer matched with current question correct answer
+            //increase score
+            score++;
+            //add correct class on selected
+            selectedAnswer.classList.add("correct");
+        } else {
+            //if wrong selected 
+            //add wrong class on selected but then also add correct on correct answer
+            selectedAnswer.classList.add("wrong");
+            const correctAnswer = document.querySelectorAll(".answer").forEach((answer) => {
+                if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
+                    correct_answer) {
+                    //only add correct class to correct answer
+                    answer.classList.add("correct");
+                }
+            });
+        }
+    }
+
 };
