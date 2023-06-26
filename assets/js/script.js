@@ -32,7 +32,10 @@ const startQuiz = () => {
         .then((res) => res.json())
         .then((data) => {
             questions = data.results;
-            console.log(questions);
+            startscreen.classList.add("hide");
+            quiz.classList.remove("hide");
+            currentQuestion = 1 
+            showQuestion(questions[0]);
         });
 };
 
