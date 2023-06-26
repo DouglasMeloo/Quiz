@@ -24,7 +24,7 @@ const startBtn = document.querySelector(".start"),
 const startQuiz = () => {
     const num = numQuestions.value;
     cat = category.value;
-    diff = level.value;
+    diff = difficulty.value;
     // api url
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
 
