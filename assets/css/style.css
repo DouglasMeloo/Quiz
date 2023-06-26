@@ -181,3 +181,10 @@ select {
     font-size: 25px;
     margin-bottom: 110px;
 }
+@media (max-width: 468) {
+    .container {
+        max-width: 100%;
+        min-width: 100vh;
+        border-radius: 0;
+    }
+}
