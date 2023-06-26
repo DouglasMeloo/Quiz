@@ -40,3 +40,10 @@ const startQuiz = () => {
 };
 
 startBtn.addEventListener("click", startQuiz);
+
+const showQuestion = (question) => {
+    const questionText = document.querySelector(".question")
+      answersWrapper = document.querySelector(".answer-wrapper"),
+      questionNumber = document.querySelector(".number"),
+    questionText.innerHTML = question.question;
+};
