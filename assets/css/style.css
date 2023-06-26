@@ -176,3 +176,8 @@ select {
     font-size: 20px;
     font-weight: 800px;
 }
+.end-screen .score-text {
+    color: #c4c4c4;
+    font-size: 25px;
+    margin-bottom: 110px;
+}
