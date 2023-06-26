@@ -1,5 +1,5 @@
 const progressBar = document.querySelector(".progress-bar"),
-    progressText = document.querySelector(".progress-bar")
+    progressText = document.querySelector(".progress-text")
 
 const progress = (value) => {
     const percentage = (value / time) * 100;
@@ -7,7 +7,7 @@ const progress = (value) => {
     progressText.innerHTML = `${value}`;
 };
 
-let question = [],
+let questions = [],
     time = 30,
     score = 0,
     currentQuestion,
