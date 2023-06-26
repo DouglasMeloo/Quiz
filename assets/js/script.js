@@ -98,6 +98,17 @@ const startTimer = (time) => {
             //move progress
             progress(time);
             time--;
+        } else {
+            //if time finish means 0
+            checkAnswer();
         }
     }, 1000);
-}
+};
+
+submitBtn.addEventListener("click" , () => {
+    checkAnswer();
+});
+
+const checkAnswer = () => {
+    clearInterval(timer);
+};
