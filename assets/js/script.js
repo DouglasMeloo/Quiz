@@ -147,5 +147,10 @@ const checkAnswer = () => {
             }
         });
     }
-
+    
+    //block user to select further answer
+    const answerDiv = document.querySelectorAll(".answer");
+    answerDiv.forEach((answer) => {
+        answer.classList.add("checked");
+    });
 };

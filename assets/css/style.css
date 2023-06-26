@@ -148,7 +148,7 @@ select {
 .answer .checkbox .icon {
     opacity: 0;
 }
-.answer:hover .checkbox, .answer.selected .checkbox {
+.answer:hover:not(.checked) .checkbox, .answer.selected .checkbox {
     background-color: #1ac963;
     border-color: #1ac963;
 }
