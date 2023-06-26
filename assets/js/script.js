@@ -13,4 +13,10 @@ let question = [],
     currentQuestion, 
     timer;
 
-    const startBtn = document.querySelector(".start")
+    const startBtn = document.querySelector(".start"),
+    numQuestions = document.querySelector("#num-questions");
+    category = document.querySelector("#category");
+    level = document.querySelector("#level");
+    time = document.querySelector("#time");
+    quiz = document.querySelector(".quiz");
+    startscreen = document.querySelector(".start-screen");
