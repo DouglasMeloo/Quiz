@@ -1,5 +1,5 @@
 const progressBar = document.querySelector(".progress-bar"),
-    progressText = document.querySelector(".progress-text")
+    progressText = document.querySelector(".progress-text");
 
 const progress = (value) => {
     const percentage = (value / time) * 100;
@@ -178,7 +178,7 @@ const nextQuestion = () => {
 
 const endScreen = document.querySelector(".end-screen"),
     finalScore = document.querySelector(".final-score"),
-    totalScore = document.querySelector("total-score");
+    totalScore = document.querySelector(".total-score");
 
 const showScore = () => {
     endScreen.classList.remove("hide");
