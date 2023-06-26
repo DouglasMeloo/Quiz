@@ -161,11 +161,17 @@ const checkAnswer = () => {
 
 nextBtn.addEventListener("click" , () => {
     nextQuestion();
+    //show submit btn on next question
+    nextBtn.style.display = "none";
+    submitBtn.style.display = "block";
 });
 
 const nextQuestion = () => {
     if (currentQuestion < questions.length) {
         currentQuestion++;
         showQuestion(questions[currentQuestion - 1]);
+    } else {
+        //if not more question, show Score
+        showScore();
     }
 }
