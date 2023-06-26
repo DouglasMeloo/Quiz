@@ -41,6 +41,9 @@ const startQuiz = () => {
 
 startBtn.addEventListener("click", startQuiz);
 
+const submitBtn = document.querySelector(".submit"),
+    nextBtn = document.querySelector(".next");
+
 const showQuestion = (question) => {
     const questionText = document.querySelector(".question")
     answersWrapper = document.querySelector(".answer-wrapper"),
