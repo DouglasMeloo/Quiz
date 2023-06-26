@@ -166,3 +166,6 @@ select {
 .question-wrapper, .answer-wrapper {
     margin-bottom: 40px;
 }
+.btn.next {
+    display: none;
+}
