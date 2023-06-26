@@ -13,10 +13,18 @@ let question = [],
     currentQuestion, 
     timer;
 
-    const startBtn = document.querySelector(".start"),
-    numQuestions = document.querySelector("#num-questions");
-    category = document.querySelector("#category");
-    level = document.querySelector("#level");
-    time = document.querySelector("#time");
-    quiz = document.querySelector(".quiz");
+const startBtn = document.querySelector(".start"),
+    numQuestions = document.querySelector("#num-questions"),
+    category = document.querySelector("#category"),
+    level = document.querySelector("#level"),
+    timePerQuestion = document.querySelector("#time"),
+    quiz = document.querySelector(".quiz"),
     startscreen = document.querySelector(".start-screen");
+
+const startQuiz = () => {
+    const num = numQuestions.value;
+    cat = category.value;
+    diff = level.value;
+    // api url
+    const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
+}
