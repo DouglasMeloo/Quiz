@@ -90,5 +90,14 @@ const showQuestion = (question) => {
 
     time = timePerQuestion.value;
     startTimer(time);
-
 };
+
+const startTimer = (time) => {
+    timer = setInterval(() => {
+        if (timer >= 0) {
+            //move progress
+            progress(time);
+            time--;
+        }
+    }, 1000);
+}
