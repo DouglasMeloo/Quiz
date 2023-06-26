@@ -34,7 +34,7 @@ const startQuiz = () => {
             questions = data.results;
             startscreen.classList.add("hide");
             quiz.classList.remove("hide");
-            currentQuestion = 1 
+            currentQuestion = 1
             showQuestion(questions[0]);
         });
 };
@@ -43,21 +43,27 @@ startBtn.addEventListener("click", startQuiz);
 
 const showQuestion = (question) => {
     const questionText = document.querySelector(".question")
-      answersWrapper = document.querySelector(".answer-wrapper"),
-      questionNumber = document.querySelector(".number");
+    answersWrapper = document.querySelector(".answer-wrapper"),
+        questionNumber = document.querySelector(".number");
 
     questionText.innerHTML = question.question;
 
     //mixing correct answer with wrong 
     const answers = [
-        ... question.incorrect_answers,
+        ...question.incorrect_answers,
         question.correct_answer.toString(),
     ];
-    
+
     answers.sort(() => Math.random() - 0.5);
     answersWrapper.innerHTML = "";
     answers.forEach((answer) => {
         answersWrapper.innerHTML += `
-        `
-    })
+        <div class="answer">
+            <span class="text">${answer}</span>
+            <span class="checkbox">
+                <span class="icon">V</span>
+            </span>
+        </div>
+        `;
+    });
 };
