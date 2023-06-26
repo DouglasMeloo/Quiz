@@ -94,7 +94,7 @@ const showQuestion = (question) => {
 
 const startTimer = (time) => {
     timer = setInterval(() => {
-        if (timer >= 0) {
+        if (time >= 0) {
             //move progress
             progress(time);
             time--;
@@ -135,6 +135,17 @@ const checkAnswer = () => {
                 }
             });
         }
+    }
+    //answer will be check also when time gets to 0
+    //add correct class on correct answer
+    else {
+        const correctAnswer = document.querySelectorAll(".answer").forEach((answer) => {
+            if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
+                correct_answer) {
+                //only add correct class to correct answer
+                answer.classList.add("correct");
+            }
+        });
     }
 
 };
