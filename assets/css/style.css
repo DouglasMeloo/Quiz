@@ -145,6 +145,9 @@ select {
     border: 3px solid #c0b4b4;
     transition: all 0.3s;
 }
+.answer .checkbox .icon {
+    opacity: 0;
+}
 .answer:hover .checkbox, .answer.selected .checkbox {
     background-color: #1ac963;
     border-color: #1ac963;
