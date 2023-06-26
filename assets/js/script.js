@@ -177,8 +177,8 @@ const nextQuestion = () => {
 };
 
 const endScreen = document.querySelector(".end-screen"),
-      finalScore = document.querySelector(".final-score"),
-      totalScore = document.querySelector("total-score");
+    finalScore = document.querySelector(".final-score"),
+    totalScore = document.querySelector("total-score");
 
 const showScore = () => {
     endScreen.classList.remove("hide");
