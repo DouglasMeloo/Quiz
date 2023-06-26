@@ -163,3 +163,6 @@ select {
 .answer.wrong {
     border-color: #d81616;
 }
+.question-wrapper, .answer-wrapper {
+    margin-bottom: 40px;
+}
