@@ -169,3 +169,10 @@ select {
 .btn.next {
     display: none;
 }
+.end-screen .score {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: 800px;
+}
