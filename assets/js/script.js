@@ -88,4 +88,7 @@ const showQuestion = (question) => {
         });
     });
 
+    time = timePerQuestion.value;
+    startTimer(time);
+
 };
