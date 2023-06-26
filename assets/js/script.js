@@ -1,5 +1,5 @@
-const progressBar = document.querySelector(".progress-bar"), 
-      progressText = document.querySelector(".progress-bar")
+const progressBar = document.querySelector(".progress-bar"),
+    progressText = document.querySelector(".progress-bar")
 
 const progress = (value) => {
     const percentage = (value / time) * 100;
@@ -10,7 +10,7 @@ const progress = (value) => {
 let question = [],
     time = 30,
     score = 0,
-    currentQuestion, 
+    currentQuestion,
     timer;
 
 const startBtn = document.querySelector(".start"),
@@ -29,11 +29,11 @@ const startQuiz = () => {
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
 
     fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        questions = data.results;
-        console.log(questions);
-       });
-}; 
+        .then((res) => res.json())
+        .then((data) => {
+            questions = data.results;
+            console.log(questions);
+        });
+};
 
-startBtn.addEventListener("click" , startQuiz);
+startBtn.addEventListener("click", startQuiz);
