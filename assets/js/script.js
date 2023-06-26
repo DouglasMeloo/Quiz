@@ -27,4 +27,11 @@ const startQuiz = () => {
     diff = level.value;
     // api url
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
-}
+
+    fetch(url)
+      .then((res) => res.json())
+      .then((date) => {
+        questions = data.results;
+        console.log(questions);
+       });
+};
