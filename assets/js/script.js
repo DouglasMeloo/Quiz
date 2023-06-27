@@ -117,7 +117,7 @@ const checkAnswer = () => {
     //any answer is selected
     if (selectedAnswer) {
         const answer = selectedAnswer.querySelector(".text");
-        if (answer === questions[currentQuestion - 1].correct_answer) {
+        if (answer.innerHTML === questions[currentQuestion - 1].correct_answer) {
             //if answer matched with current question correct answer
             //increase score
             score++;
@@ -127,7 +127,8 @@ const checkAnswer = () => {
             //if wrong selected 
             //add wrong class on selected but then also add correct on correct answer
             selectedAnswer.classList.add("wrong");
-            const correctAnswer = document.querySelectorAll(".answer").forEach((answer) => {
+            const correctAnswer = document.querySelectorAll(".answer");
+            correctAnswer.forEach((answer) => {
                 if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
                     correct_answer) {
                     //only add correct class to correct answer
@@ -139,7 +140,8 @@ const checkAnswer = () => {
     //answer will be check also when time gets to 0
     //add correct class on correct answer
     else {
-        const correctAnswer = document.querySelectorAll(".answer").forEach((answer) => {
+        const correctAnswer = document.querySelectorAll(".answer");
+        correctAnswer.forEach((answer) => {
             if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
                 correct_answer) {
                 //only add correct class to correct answer
@@ -149,8 +151,8 @@ const checkAnswer = () => {
     }
 
     //block user to select further answer
-    const answerDiv = document.querySelectorAll(".answer");
-    answerDiv.forEach((answer) => {
+    const answerDivs = document.querySelectorAll(".answer");
+    answerDivs.forEach((answer) => {
         answer.classList.add("checked");
     });
 
