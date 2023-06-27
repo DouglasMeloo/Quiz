@@ -197,6 +197,17 @@ select {
     font-size: 25px;
     margin-bottom: 110px;
 }
+/* Footer styles*/
+footer {
+    background-color: #5154eb;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+
 /* Media query for small screens */
 @media (max-width: 468) {
     .container {
