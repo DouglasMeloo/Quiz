@@ -1,18 +1,21 @@
+// DOM elements
 const progressBar = document.querySelector(".progress-bar"),
     progressText = document.querySelector(".progress-text");
 
+// Function to update progress bar
 const progress = (value) => {
     const percentage = (value / time) * 100;
     progressBar.style.width = `${percentage}%`;
     progressText.innerHTML = `${value}`;
 };
-
+// Variables
 let questions = [],
     time = 30,
     score = 0,
     currentQuestion,
     timer;
 
+// Start button and input elements
 const startBtn = document.querySelector(".start"),
     numQuestions = document.querySelector("#num-questions"),
     category = document.querySelector("#category"),
@@ -21,11 +24,12 @@ const startBtn = document.querySelector(".start"),
     quiz = document.querySelector(".quiz"),
     startscreen = document.querySelector(".start-screen");
 
+// Function to start the quiz
 const startQuiz = () => {
     const num = numQuestions.value;
     cat = category.value;
     diff = difficulty.value;
-    // api url
+    // API URL for fetching questions
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
 
     fetch(url)
@@ -41,9 +45,11 @@ const startQuiz = () => {
 
 startBtn.addEventListener("click", startQuiz);
 
+// Submit and Next buttons
 const submitBtn = document.querySelector(".submit"),
     nextBtn = document.querySelector(".next");
 
+// Function to display a question
 const showQuestion = (question) => {
     const questionText = document.querySelector(".question")
     answersWrapper = document.querySelector(".answer-wrapper"),
@@ -51,7 +57,7 @@ const showQuestion = (question) => {
 
     questionText.innerHTML = question.question;
 
-    //mixing correct answer with wrong 
+// Mixing correct answer with wrong answers
     const answers = [
         ...question.incorrect_answers,
         question.correct_answer.toString(),
@@ -92,14 +98,15 @@ const showQuestion = (question) => {
     startTimer(time);
 };
 
+// Function to start the timer
 const startTimer = (time) => {
     timer = setInterval(() => {
         if (time >= 0) {
-            //move progress
+            // Move progress
             progress(time);
             time--;
         } else {
-            //if time finish means 0
+            // If time finishes (reaches 0)
             checkAnswer();
         }
     }, 1000);
@@ -109,71 +116,73 @@ submitBtn.addEventListener("click", () => {
     checkAnswer();
 });
 
+// Function to check the selected answer
 const checkAnswer = () => {
-    //clear interval when check answer submited
+    // Clear interval when answer checked
     clearInterval(timer);
 
     const selectedAnswer = document.querySelector(".answer.selected");
-    //any answer is selected
+    // Check if any answer is selected
     if (selectedAnswer) {
         const answer = selectedAnswer.querySelector(".text");
         if (answer.innerHTML === questions[currentQuestion - 1].correct_answer) {
-            //if answer matched with current question correct answer
-            //increase score
+            // If answer matches the current question's correct answer
+            // Increase score
             score++;
-            //add correct class on selected
+            // Add correct class to selected answer
             selectedAnswer.classList.add("correct");
         } else {
-            //if wrong selected 
-            //add wrong class on selected but then also add correct on correct answer
+            // If wrong selected 
+            // Add wrong class to selected answer and correct class to correct answer
             selectedAnswer.classList.add("wrong");
             const correctAnswer = document.querySelectorAll(".answer");
             correctAnswer.forEach((answer) => {
                 if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
                     correct_answer) {
-                    //only add correct class to correct answer
+                    // Add correct class only to the correct answer
                     answer.classList.add("correct");
                 }
             });
         }
     }
-    //answer will be check also when time gets to 0
-    //add correct class on correct answer
+    // Answer will also be checked when time reaches 0
+    // Add correct class to correct answer
     else {
         const correctAnswer = document.querySelectorAll(".answer");
         correctAnswer.forEach((answer) => {
             if (answer.querySelector(".text").innerHTML === questions[currentQuestion - 1].
                 correct_answer) {
-                //only add correct class to correct answer
+                // Add correct class onbly to the correct answer
                 answer.classList.add("correct");
             }
         });
     }
 
-    //block user to select further answer
+    // Block user from selecting further answers
     const answerDivs = document.querySelectorAll(".answer");
     answerDivs.forEach((answer) => {
         answer.classList.add("checked");
     });
 
-    //show nextBtn after submit
+    // Show nextBtn after submission
     submitBtn.style.display = "none";
     nextBtn.style.display = "block";
 };
 
 nextBtn.addEventListener("click", () => {
     nextQuestion();
-    //show submit btn on next question
+    // Show submit btn on next question
     nextBtn.style.display = "none";
     submitBtn.style.display = "block";
 });
 
+// Function to display the next question or show the score
 const nextQuestion = () => {
     if (currentQuestion < questions.length) {
         currentQuestion++;
         showQuestion(questions[currentQuestion - 1]);
     } else {
-        //if not more question, show Score
+        // If there are no more questions, show the score
         showScore();
     }
 };
@@ -182,6 +191,7 @@ const endScreen = document.querySelector(".end-screen"),
     finalScore = document.querySelector(".final-score"),
     totalScore = document.querySelector(".total-score");
 
+// Function to display the final score
 const showScore = () => {
     endScreen.classList.remove("hide");
     quiz.classList.add("hide");
@@ -189,6 +199,7 @@ const showScore = () => {
     totalScore.innerHTML = `/${questions.length}`;
 };
 
+// Restart button
 const restartBtn = document.querySelector(".restart");
 restartBtn.addEventListener("click", () => {
     window.location.reload();
