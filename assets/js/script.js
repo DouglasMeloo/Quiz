@@ -195,10 +195,11 @@ const endScreen = document.querySelector(".end-screen"),
 const showScore = () => {
     endScreen.classList.remove("hide");
     quiz.classList.add("hide");
-    finalScore.innerHTML = score;
+    const userNameInput = document.getElementById("name-input");
+    const userName = userNameInput.value;
+    finalScore.innerHTML = `${userName}, your score is ${score}`;
     totalScore.innerHTML = `/${questions.length}`;
 };
-
 // Restart button
 const restartBtn = document.querySelector(".restart");
 restartBtn.addEventListener("click", () => {
