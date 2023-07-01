@@ -33,6 +33,23 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
+.intro {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.rules-heading {
+    color: #c4c4c4;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.rules-list {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    list-style-type: disc;
+}
 /* Label styles */
 label {
     display: block;
