@@ -50,6 +50,26 @@ body {
     margin-left: 20px;
     list-style-type: disc;
 }
+/* Name Input Field */
+.name-input {
+    margin-bottom: 15px;
+  }
+  
+  .name-input label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .name-input input[type="text"] {
+    background-color: #c4c4c4;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    border: 1px solid #c4c4c4;
+  }
 /* Label styles */
 label {
     display: block;
@@ -214,30 +234,7 @@ select {
     font-size: 25px;
     margin-bottom: 110px;
 }
-/* Name Input Field */
-.name-input {
-    margin-bottom: 15px;
-  }
-  
-  .name-input label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .name-input input[type="text"] {
-    background-color: #c4c4c4;
-    color: #000;
-    font-size: 15px;
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-    border: 1px solid #c4c4c4;
-  }
-  
-  /* End Screen Display */
-  .end-screen {
+.end-screen {
     text-align: center;
     padding: 20px;
   }
@@ -275,7 +272,6 @@ footer {
 /* Media query for small screens */
 @media only screen and (max-width: 700px){
     .container {
-        position: relative;
         margin-top: 30px;
         margin-bottom: 80px;
     }
