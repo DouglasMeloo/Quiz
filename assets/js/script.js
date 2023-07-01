@@ -197,7 +197,7 @@ const showScore = () => {
     quiz.classList.add("hide");
     const userNameInput = document.getElementById("name-input");
     const userName = userNameInput.value;
-    finalScore.innerHTML = `${userName}, your score is ${score}`;
+    finalScore.innerHTML = `${userName}, <br>your score is ${score}`;
     totalScore.innerHTML = `/${questions.length}`;
 };
 // Restart button
