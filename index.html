@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Knowlegde quiz">
     <script src="https://kit.fontawesome.com/9246024f5b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Knowlegde Quiz</title>
 </head>
 
@@ -27,9 +27,11 @@
                 <li>The quiz consists of multiple rounds with different questions.</li>
                 <li>Try to answer as many questions correctly as possible to get a high score.</li>
             </ul>
-            <!--User name input-->
-            <label for="name">Enter your Name</label>
-            <input type="text" name="name" id="name" placeholder="Your Name">
+            <!-- User name input -->
+            <div class="name-input">
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+            </div>
             <!-- Quiz settings -->
             <div class="settings">
                 <label for="num-questions">Number of Questions</label>
