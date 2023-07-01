@@ -10,7 +10,7 @@
 /* Body Styles */
 body {
     display: flex;
-    background: linear-gradient(to top, #c4c4c4, #5154eb );
+    background: linear-gradient(to top, #c4c4c4, #6c6eeb );
     min-height: 100vh;
     justify-content: center;
     align-items: center;
