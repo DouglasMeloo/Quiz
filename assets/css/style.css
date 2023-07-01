@@ -238,10 +238,30 @@ footer {
 }
 
 /* Media query for small screens */
-@media (max-width: 468) {
+@media only screen and (max-width: 700px){
     .container {
-        max-width: 100%;
-        min-width: 100vh;
-        border-radius: 0;
+        margin-top: 30px;
+        margin-bottom: 80px;
     }
-}
+    .intro {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+    
+      .rules-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+      }
+    
+      .rules-list {
+        font-size: 18px;
+        margin-bottom: 35px;
+      }
+    
+      .question-wrapper,
+      .answer-wrapper {
+        margin-top: 50px;
+      }
+ 
+  }
