@@ -59,17 +59,6 @@ To deploy the Quiz application, you can follow these steps:
 - Click on the "Code" button and select the cloning method you prefer (HTTPS, SSH, or GitHub CLI).
 - Copy the provided link.
 
-#### Open the terminal:
-
-- Open the terminal or command prompt on your computer.
-
-#### Clone the repository:
-
-- Navigate to the directory where you want to clone the repository by using the cd command.
-- Type the following command, and replace repository_link with the link you copied in step 2:
-- git clone repository_link
--Press enter to clone the repository to your local machine.
-
 #### Deployment:
 
 - After cloning the repository, navigate to the project directory using the cd command.
