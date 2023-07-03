@@ -273,6 +273,7 @@ footer {
 /* Media query for small screens */
 @media only screen and (max-width: 700px){
     .container {
+        overflow: scroll;
         margin-top: 30px;
         margin-bottom: 80px;
     }
@@ -294,6 +295,26 @@ footer {
     
       .question-wrapper,
       .answer-wrapper {
-        margin-top: 50px;
+        margin-top: 5px;
       } 
+      .timer {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+  }
+  @media only screen and {max-width: 400px;) {
+    .container {
+        padding: 20px;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .name-input input[type="text"] {
+        font-size: 14px;
+    }
+    .btn {
+        font-size: 20px;
+    }
+  }
+    
   }
