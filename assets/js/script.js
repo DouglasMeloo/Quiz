@@ -27,8 +27,8 @@ const startBtn = document.querySelector(".start"),
 // Function to start the quiz
 const startQuiz = () => {
     const num = numQuestions.value;
-    cat = category.value;
-    diff = difficulty.value;
+    const cat = category.value;
+    const diff = difficulty.value;
     // API URL for fetching questions
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
 
@@ -38,7 +38,7 @@ const startQuiz = () => {
             questions = data.results;
             startscreen.classList.add("hide");
             quiz.classList.remove("hide");
-            currentQuestion = 1
+            currentQuestion = 1;
             showQuestion(questions[0]);
         });
 };
@@ -51,8 +51,8 @@ const submitBtn = document.querySelector(".submit"),
 
 // Function to display a question
 const showQuestion = (question) => {
-    const questionText = document.querySelector(".question")
-    answersWrapper = document.querySelector(".answer-wrapper"),
+    const questionText = document.querySelector(".question");
+    const answersWrapper = document.querySelector(".answer-wrapper"),
         questionNumber = document.querySelector(".number");
 
     questionText.innerHTML = question.question;
