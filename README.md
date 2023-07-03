@@ -152,3 +152,22 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 #### Conclusion
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
+
+## Technologies 
+
+#### Technologies Used
+- The Quiz application was developed using the following technologies and API:
+
+#### Languages Used
+  * HTML: Used to structure the web pages and create the user interface elements.
+  * CSS: Used to style the web pages and enhance the visual appeal of the application.
+  * JavaScript: Used to add interactivity and implement the quiz logic.
+
+#### Framework, Libraries and Programs Used
+  * Bootstrap: Used as a CSS framework for responsive design and pre-built UI components.
+  * Adobe Photoshop (image editing): Used for editing and optimizing images for the web.
+  * Google Fonts (web fonts): Used to enhance the typography of the web application.
+  * GitHub: Used for version control and collaboration during the development process.
+  * GitHub Pages: Used for hosting the live website and making it accessible to users.
+  * Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
+  * Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
