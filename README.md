@@ -21,7 +21,7 @@ During the quiz, you will see questions with multiple choice options, think quic
 The countdown timer adds excitement as you progress. After answering all questions, see your final score and maybe a fun comment. Play again to beat your score or challenge friends.
 The quiz has a user friendly interface, making it easy to enjoy and test your knowledge. Get ready to have fun and test your knowledge with the quiz!
 
-##features 
+## features 
 - User friendly interface: The quiz has a simple and intuitive interface that makes it easy for users to navigate and enjoy the game.
 
 - Personalized experience: Users can enter their names at the beginning of the quiz to create a more personalized and engaging experience.
