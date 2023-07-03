@@ -40,6 +40,8 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 
 - Replayability: After completing the quiz, users have the option to play again, either to improve their score or challenge their friends.
 
+
+
 ## Deployment   <p align="right">[(Back to Top)](#top)</p>
 
 To deploy the Quiz application, you can follow these steps:
@@ -80,3 +82,73 @@ To deploy the Quiz application, you can follow these steps:
 - Push the changes to the gh-pages branch.
 - Wait for a few minutes for the changes to take effect.
 - Visit the live website provided, https://douglasmeloo.github.io/Quiz/, to access the deployed Quiz application.
+
+## Usage  <p align="right">[(Back to Top)](#top)</p>
+
+### Quiz Application - Usage
+The Quiz application is a fun and interactive quiz game where users can test their knowledge on various topics. This file provides instructions on how to use the application effectively.
+
+#### Prerequisites
+- Web browser (Google Chrome, Mozilla Firefox, Safari, etc.)
+- Internet connection
+
+#### Getting Started
+1. Access the Quiz application by visiting the live website: https://douglasmeloo.github.io/Quiz/.
+2. The Quiz homepage will be displayed, showing the game instructions and options to configure the quiz settings.
+
+#### Game Configuration
+1. Enter the user name:
+  - In the Quiz homepage, locate the input field labeled "Enter your name."
+  - Type in your desired username or nickname to personalize your game experience.
+
+2. Choose the number of questions:
+  - Select the desired number of questions from the dropdown menu (5, 10, 15, 20, 25, or 30).
+  - This determines the total number of questions the quiz will include.
+
+3. Choose the category:
+  - Select the desired category from the available options.
+  - The category represents the topic or subject area for the quiz questions (e.g., General Knowledge, History, Books, Sports, Movies, etc.).
+  - Click on the category dropdown menu and choose the category that interests you.
+
+4. Choose the level:
+  - Select the desired difficulty level for the quiz.
+  - The level determines the complexity and challenge of the questions (e.g., Easy, Medium, Hard).
+  - Click on the level dropdown menu and choose the appropriate level.
+
+5. Set the countdown timer:
+  - Select the desired duration for the countdown timer from the dropdown menu (10, 20, 30, 40, 50, or 60 seconds).
+  - The countdown timer adds excitement and a sense of urgency to the game.
+
+6. Start the Quiz:
+  - Click on the "Start Quiz" button to begin the game with the selected settings.
+  - The first question will be displayed, along with multiple-choice options.
+
+  #### Gameplay
+1. Answering questions:
+  - Read the question and choose the correct answer by clicking on the corresponding option.
+  - Once you have selected your answer, click on the "Submit" button to proceed.
+  - If the answer is correct, it will be highlighted in green.
+  - If the answer is incorrect, it will be highlighted in red, and the correct answer will be highlighted in green.
+
+2. Score tracking:
+  - After answering each question and clicking on the "Submit" button, the application will provide immediate feedback on whether the answer was correct or not.
+  - Your score will be updated accordingly based on your correct and incorrect answers.
+  - At the end of the quiz, the final score will be displayed.
+
+4. Timer:
+  - The countdown timer will start running as soon as the quiz begins.
+  - You must answer each question within the allotted time.
+  - If you do not submit your answer within the time limit, the correct answer will be automatically displayed, and you will have to proceed to the next question.
+
+5. Next question:
+  - After answering a question and clicking on the "Submit" button, the "Next" button will automatically appear.
+  - Clicking on the "Next" button will seamlessly transition to the next question.
+  - Continue answering questions and clicking on the "Next" button to proceed through all the questions until the quiz is completed.
+
+6. Restarting the quiz:
+  - At the end of the quiz, you have the option to play again by clicking on the "Restart Quiz" button.
+  - Clicking on the "Restart Quiz" button will bring you back to the start, allowing you to enjoy the quiz once more.
+  - Feel free to restart the quiz as many times as you like to test your knowledge and improve your score.
+
+#### Conclusion
+Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
