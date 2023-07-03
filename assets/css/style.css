@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
 
-html,
-body {
-    height: 100%;
-}
-
 /* Global styles */
 *{
     padding: 0;
@@ -278,8 +273,6 @@ footer {
 /* Media query for small screens */
 @media only screen and (max-width: 700px){
     .container {
-        height: 90%;
-        overflow: scroll;
         margin-top: 30px;
         margin-bottom: 80px;
     }
@@ -301,13 +294,6 @@ footer {
     
       .question-wrapper,
       .answer-wrapper {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-top: 50px;
       } 
-      .btn.next, .btn.submit {
-        margin-top: 0.8rem;
-      }
-      .timer {
-        margin-bottom: 0.5rem;
-      }
   }
