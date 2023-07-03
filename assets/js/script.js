@@ -57,7 +57,7 @@ const showQuestion = (question) => {
 
     questionText.innerHTML = question.question;
 
-// Mixing correct answer with wrong answers
+    // Mixing correct answer with wrong answers
     const answers = [
         ...question.incorrect_answers,
         question.correct_answer.toString(),
@@ -206,4 +206,4 @@ restartBtn.addEventListener("click", () => {
     window.location.reload();
 });
 
-  
+

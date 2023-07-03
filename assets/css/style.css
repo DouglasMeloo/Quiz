@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
 
 /* Global styles */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "roboto" , sans-serif, Arial, Helvetica, sans-serif;
+    font-family: "roboto", sans-serif, Arial, Helvetica, sans-serif;
 }
+
 /* Body Styles */
 body {
     display: flex;
-    background: linear-gradient(to top, #c4c4c4, #6c6eeb );
+    background: linear-gradient(to top, #c4c4c4, #6c6eeb);
     min-height: 100vh;
     justify-content: center;
     align-items: center;
 }
+
 /* Container styles */
 .container {
     background-color: #5154eb;
@@ -24,8 +26,9 @@ body {
     overflow: hidden;
     padding: 40px;
     border-radius: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);    
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
+
 /* Heading Styles */
 .heading {
     color: #c4c4c4;
@@ -33,16 +36,19 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
+
 .intro {
     color: #c4c4c4;
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 .rules-heading {
     color: #c4c4c4;
     font-size: 25px;
     margin-bottom: 10px;
 }
+
 .rules-list {
     color: #c4c4c4;
     font-size: 18px;
@@ -50,17 +56,18 @@ body {
     margin-left: 20px;
     list-style-type: disc;
 }
+
 /* Name Input Field */
 .name-input {
     margin-bottom: 15px;
-  }
-  
-  .name-input label {
+}
+
+.name-input label {
     display: block;
     margin-bottom: 5px;
-  }
-  
-  .name-input input[type="text"] {
+}
+
+.name-input input[type="text"] {
     background-color: #c4c4c4;
     font-size: 15px;
     width: 100%;
@@ -69,7 +76,8 @@ body {
     margin-bottom: 5px;
     text-transform: capitalize;
     border: 1px solid #c4c4c4;
-  }
+}
+
 /* Label styles */
 label {
     display: block;
@@ -78,6 +86,7 @@ label {
     margin-bottom: 5px;
     text-transform: capitalize;
 }
+
 /* Select styles */
 select {
     background-color: #c4c4c4;
@@ -89,6 +98,7 @@ select {
     margin-bottom: 15px;
     text-transform: capitalize;
 }
+
 /* Button styles */
 .btn {
     background-color: #29854f;
@@ -101,19 +111,23 @@ select {
     font-weight: 800;
     margin-top: 50px;
     cursor: pointer;
-    transition: all 0.2s linear;    
+    transition: all 0.2s linear;
 }
+
 .btn:hover {
     background-color: #1ac963;
 }
+
 .btn:disabled {
     background-color: #be1111;
     cursor: not-allowed;
 }
+
 /* Hide class */
 .hide {
     display: none;
 }
+
 .timer {
     display: flex;
     align-items: center;
@@ -122,6 +136,7 @@ select {
     height: 100px;
     margin-bottom: 20px;
 }
+
 .timer .progress {
     background-color: transparent;
     position: relative;
@@ -132,15 +147,17 @@ select {
     border-radius: 15px;
     border: 3px solid #c0b4b4;
 }
+
 .timer .progress .progress-bar {
     /* Progress bar color gradient */
-    background: linear-gradient(to right, #9d50e6, #d763e6 );
+    background: linear-gradient(to right, #9d50e6, #d763e6);
     transition: 1s linear;
     overflow: hidden;
     width: 100%;
     height: 100%;
     border-radius: 15px;
 }
+
 .timer .progress .progress-text {
     color: #fff;
     font-size: 18px;
@@ -150,6 +167,7 @@ select {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 /* Question wrapper styles */
 .question-wrapper .number {
     color: #c4c4c4;
@@ -157,16 +175,19 @@ select {
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .question-wrapper .number .total {
     color: #8d8d8d;
     font-size: 19px;
 }
+
 .question-wrapper .question {
     color: #c4c4c4;
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 /* Answer wrapper styles */
 .answer-wrapper .answer {
     display: flex;
@@ -182,6 +203,7 @@ select {
     cursor: pointer;
     transition: 0.3s linear;
 }
+
 .answer .checkbox {
     display: flex;
     align-items: center;
@@ -193,34 +215,44 @@ select {
     border: 3px solid #c0b4b4;
     transition: all 0.3s;
 }
+
 .answer .checkbox .icon {
     opacity: 0;
 }
-.answer:hover:not(.checked) .checkbox, .answer.selected .checkbox {
+
+.answer:hover:not(.checked) .checkbox,
+.answer.selected .checkbox {
     /* Checkbox background color and border color when hovered or selected*/
     background-color: #1ac963;
     border-color: #1ac963;
 }
+
 .answer.selected .checkbox .icon {
     opacity: 1;
     font-size: 20px;
     font-weight: 900;
 }
+
 .answer.correct {
     /* Border color for correct answer */
     border-color: #1ac963;
 }
+
 .answer.wrong {
     /* Border color for wrong answer */
     border-color: #d81616;
 }
-.question-wrapper, .answer-wrapper {
+
+.question-wrapper,
+.answer-wrapper {
     margin-bottom: 40px;
 }
+
 /* Next btn style */
 .btn.next {
     display: none;
 }
+
 /* End screen styles */
 .end-screen .score {
     color: #fff;
@@ -230,23 +262,26 @@ select {
     font-size: 30px;
     font-weight: 800px;
 }
+
 .end-screen .score-text {
     color: #c4c4c4;
     font-size: 25px;
     margin-bottom: 110px;
 }
+
 .end-screen {
     text-align: center;
     padding: 20px;
-  }
-  
-  .end-screen h2 {
+}
+
+.end-screen h2 {
     margin-bottom: 10px;
-  }
-  
-  .end-screen p {
+}
+
+.end-screen p {
     margin-bottom: 20px;
-  }
+}
+
 /* Footer styles*/
 footer {
     background-color: #5154eb;
@@ -256,65 +291,73 @@ footer {
     left: 0;
     padding: 10px 0;
 }
+
 .footer-links {
     display: flex;
     justify-content: center;
 }
+
 .footer-links a {
     color: #c4c4c4;
     text-decoration: none;
     font-size: 25px;
     margin: 0 10px;
 }
+
 .footer-links a:hover {
     color: #fff;
 }
 
 /* Media query for small screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .container {
         overflow: scroll;
         margin-top: 30px;
         margin-bottom: 80px;
     }
+
     .intro {
         font-size: 18px;
         margin-bottom: 15px;
-      }
-    
-      .rules-heading {
+    }
+
+    .rules-heading {
         font-size: 20px;
         margin-bottom: 10px;
         margin-top: 30px;
-      }
-    
-      .rules-list {
+    }
+
+    .rules-list {
         font-size: 18px;
         margin-bottom: 35px;
-      }
-    
-      .question-wrapper,
-      .answer-wrapper {
+    }
+
+    .question-wrapper,
+    .answer-wrapper {
         margin-top: 5px;
-      } 
-      .timer {
+    }
+
+    .timer {
         margin-top: 5px;
         margin-bottom: 5px;
-      }
-  }
+    }
+}
+
 /* Additional styles for mobile screens */
 @media only screen and (max-width: 400px) {
     .container {
-      padding: 20px;
+        padding: 20px;
     }
+
     .heading {
         font-size: 40px;
-      }
-      
-  .name-input input[type="text"] {
-    font-size: 14px;
-  }
-  .btn {
-    font-size: 20px;
-  }
+    }
+
+    .name-input input[type="text"] {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
 }
