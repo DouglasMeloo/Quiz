@@ -99,7 +99,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 2. Choose the number of questions:
 
-- Select the desired number of questions from the dropdown menu (5, 10, 15, 20, 25, or 30).
+- Select the desired number of questions from the dropdown menu (5, 10, 15 or 20).
 - This determines the total number of questions the quiz will include.
 
 3. Choose the category:
