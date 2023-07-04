@@ -29,21 +29,30 @@ const startQuiz = () => {
     const num = numQuestions.value;
     const cat = category.value;
     const diff = difficulty.value;
+    // Get the name input value
+    const name = document.getElementById("name-input").value;
+  
+    if (name.trim() === "") {
+      // Check if the name is empty
+      alert("Please enter your name before starting the quiz.");
+      return; // Stop the function execution
+    }
+  
     // API URL for fetching questions
     const url = `https://opentdb.com/api.php?amount=${num}&category=${cat}&difficulty=${diff}&type=multiple`;
-
+  
     fetch(url)
-        .then((res) => res.json())
-        .then((data) => {
-            questions = data.results;
-            startscreen.classList.add("hide");
-            quiz.classList.remove("hide");
-            currentQuestion = 1;
-            showQuestion(questions[0]);
-        });
-};
-
-startBtn.addEventListener("click", startQuiz);
+      .then((res) => res.json())
+      .then((data) => {
+        questions = data.results;
+        startscreen.classList.add("hide");
+        quiz.classList.remove("hide");
+        currentQuestion = 1;
+        showQuestion(questions[0]);
+      });
+  };
+  
+  startBtn.addEventListener("click", startQuiz);
 
 // Submit and Next buttons
 const submitBtn = document.querySelector(".submit"),
