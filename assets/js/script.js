@@ -30,11 +30,11 @@ const startQuiz = () => {
     const cat = category.value;
     const diff = difficulty.value;
     // Get the name input value
-    const name = document.getElementById("name-input").value; 
+    const name = document.getElementById("name-input").value;
   
-    if (name.trim().length < 4) {
-      // Check if the name is less than 4 characters
-      alert("Please enter the username with at least 4 characters.");
+    if (name.trim().length < 4 || /\d/.test(name)) {
+      // Check if the name is less than 4 characters or contains a number
+      alert("Please enter a valid name with at least 4 characters and numbers not allowed.");
       return; // Stop the function execution
     }
   
