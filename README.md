@@ -1,9 +1,11 @@
-# Knowlegde Quiz
-![Knowlegde quiz](./assets/images/knowlegdequiz.webp)
+# knowledge Quiz
 
-Knowlegde Quiz is a fun website for user test their knowlegde. 
+![knowledge quiz](./assets/images/knowledgequiz.webp)
+
+knowledge Quiz is a fun website for user test their knowledge.
 
 ## Table of Contents
+
 - [Description](#description)
 - [Features](#features)
 - [Deployment](#deployment)
@@ -16,12 +18,14 @@ Knowlegde Quiz is a fun website for user test their knowlegde.
 - [Credits](#credits)
 
 ## Description
-The quiz is a fun game that tests your knowledge on various topics. You will start by entering your name to personalize the experience and Then, choose the number of questions, category, and difficulty level. 
-During the quiz, you will see questions with multiple choice options, think quickly and select your answer. 
+
+The quiz is a fun game that tests your knowledge on various topics. You will start by entering your name to personalize the experience and Then, choose the number of questions, category, and difficulty level.
+During the quiz, you will see questions with multiple choice options, think quickly and select your answer.
 The countdown timer adds excitement as you progress. After answering all questions, see your final score and maybe a fun comment. Play again to beat your score or challenge friends.
 The quiz has a user friendly interface, making it easy to enjoy and test your knowledge. Get ready to have fun and test your knowledge with the quiz!
 
-## features 
+## features
+
 - User friendly interface: The quiz has a simple and intuitive interface that makes it easy for users to navigate and enjoy the game.
 
 - Personalized experience: Users can enter their names at the beginning of the quiz to create a more personalized and engaging experience.
@@ -40,9 +44,7 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 
 - Replayability: After completing the quiz, users have the option to play again, either to improve their score or challenge their friends.
 
-
-
-## Deployment   <p align="right">[(Back to Top)](#top)</p>
+## Deployment <p align="right">[(Back to Top)](#top)</p>
 
 To deploy the Quiz application, you can follow these steps:
 
@@ -55,7 +57,7 @@ To deploy the Quiz application, you can follow these steps:
 #### Clone the repository:
 
 - Login or sign up to GitHub.
-- Open the Quiz project repository: https://github.com/YourUsername/Quiz (replace "YourUsername" with your   actual GitHub username).
+- Open the Quiz project repository: https://github.com/YourUsername/Quiz (replace "YourUsername" with your actual GitHub username).
 - Click on the "Code" button and select the cloning method you prefer (HTTPS, SSH, or GitHub CLI).
 - Copy the provided link.
 
@@ -72,91 +74,111 @@ To deploy the Quiz application, you can follow these steps:
 - Wait for a few minutes for the changes to take effect.
 - Visit the live website provided, https://douglasmeloo.github.io/Quiz/, to access the deployed Quiz application.
 
-## Usage  <p align="right">[(Back to Top)](#top)</p>
+## Usage <p align="right">[(Back to Top)](#top)</p>
 
 ### Quiz Application - Usage
+
 The Quiz application is a fun and interactive quiz game where users can test their knowledge on various topics. This file provides instructions on how to use the application effectively.
 
 #### Prerequisites
+
 - Web browser (Google Chrome, Mozilla Firefox, Safari, etc.)
 - Internet connection
 
 #### Getting Started
+
 1. Access the Quiz application by visiting the live website: https://douglasmeloo.github.io/Quiz/.
 2. The Quiz homepage will be displayed, showing the game instructions and options to configure the quiz settings.
 
 #### Game Configuration
+
 1. Enter the user name:
-  - In the Quiz homepage, locate the input field labeled "Enter your name."
-  - Type in your desired username or nickname to personalize your game experience.
+
+- In the Quiz homepage, locate the input field labeled "Enter your name."
+- Type in your desired username or nickname to personalize your game experience.
 
 2. Choose the number of questions:
-  - Select the desired number of questions from the dropdown menu (5, 10, 15, 20, 25, or 30).
-  - This determines the total number of questions the quiz will include.
+
+- Select the desired number of questions from the dropdown menu (5, 10, 15, 20, 25, or 30).
+- This determines the total number of questions the quiz will include.
 
 3. Choose the category:
-  - Select the desired category from the available options.
-  - The category represents the topic or subject area for the quiz questions (e.g., General Knowledge, History, Books, Sports, Movies, etc.).
-  - Click on the category dropdown menu and choose the category that interests you.
+
+- Select the desired category from the available options.
+- The category represents the topic or subject area for the quiz questions (e.g., General Knowledge, History, Books, Sports, Movies, etc.).
+- Click on the category dropdown menu and choose the category that interests you.
 
 4. Choose the level:
-  - Select the desired difficulty level for the quiz.
-  - The level determines the complexity and challenge of the questions (e.g., Easy, Medium, Hard).
-  - Click on the level dropdown menu and choose the appropriate level.
+
+- Select the desired difficulty level for the quiz.
+- The level determines the complexity and challenge of the questions (e.g., Easy, Medium, Hard).
+- Click on the level dropdown menu and choose the appropriate level.
 
 5. Set the countdown timer:
-  - Select the desired duration for the countdown timer from the dropdown menu (10, 20, 30, 40, 50, or 60 seconds).
-  - The countdown timer adds excitement and a sense of urgency to the game.
+
+- Select the desired duration for the countdown timer from the dropdown menu (10, 20, 30, 40, 50, or 60 seconds).
+- The countdown timer adds excitement and a sense of urgency to the game.
 
 6. Start the Quiz:
-  - Click on the "Start Quiz" button to begin the game with the selected settings.
-  - The first question will be displayed, along with multiple-choice options.
 
-  #### Gameplay
+- Click on the "Start Quiz" button to begin the game with the selected settings.
+- The first question will be displayed, along with multiple-choice options.
+
+#### Gameplay
+
 1. Answering questions:
-  - Read the question and choose the correct answer by clicking on the corresponding option.
-  - Once you have selected your answer, click on the "Submit" button to proceed.
-  - If the answer is correct, it will be highlighted in green.
-  - If the answer is incorrect, it will be highlighted in red, and the correct answer will be highlighted in green.
+
+- Read the question and choose the correct answer by clicking on the corresponding option.
+- Once you have selected your answer, click on the "Submit" button to proceed.
+- If the answer is correct, it will be highlighted in green.
+- If the answer is incorrect, it will be highlighted in red, and the correct answer will be highlighted in green.
 
 2. Score tracking:
-  - After answering each question and clicking on the "Submit" button, the application will provide immediate feedback on whether the answer was correct or not.
-  - Your score will be updated accordingly based on your correct and incorrect answers.
-  - At the end of the quiz, the final score will be displayed.
+
+- After answering each question and clicking on the "Submit" button, the application will provide immediate feedback on whether the answer was correct or not.
+- Your score will be updated accordingly based on your correct and incorrect answers.
+- At the end of the quiz, the final score will be displayed.
 
 4. Timer:
-  - The countdown timer will start running as soon as the quiz begins.
-  - You must answer each question within the allotted time.
-  - If you do not submit your answer within the time limit, the correct answer will be automatically displayed, and you will have to proceed to the next question.
+
+- The countdown timer will start running as soon as the quiz begins.
+- You must answer each question within the allotted time.
+- If you do not submit your answer within the time limit, the correct answer will be automatically displayed, and you will have to proceed to the next question.
 
 5. Next question:
-  - After answering a question and clicking on the "Submit" button, the "Next" button will automatically appear.
-  - Clicking on the "Next" button will seamlessly transition to the next question.
-  - Continue answering questions and clicking on the "Next" button to proceed through all the questions until the quiz is completed.
+
+- After answering a question and clicking on the "Submit" button, the "Next" button will automatically appear.
+- Clicking on the "Next" button will seamlessly transition to the next question.
+- Continue answering questions and clicking on the "Next" button to proceed through all the questions until the quiz is completed.
 
 6. Restarting the quiz:
-  - At the end of the quiz, you have the option to play again by clicking on the "Restart Quiz" button.
-  - Clicking on the "Restart Quiz" button will bring you back to the start, allowing you to enjoy the quiz once more.
-  - Feel free to restart the quiz as many times as you like to test your knowledge and improve your score.
+
+- At the end of the quiz, you have the option to play again by clicking on the "Restart Quiz" button.
+- Clicking on the "Restart Quiz" button will bring you back to the start, allowing you to enjoy the quiz once more.
+- Feel free to restart the quiz as many times as you like to test your knowledge and improve your score.
 
 #### Conclusion
+
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies 
+## Technologies
 
 #### Technologies Used
+
 - The Quiz application was developed using the following technologies and API:
 
 #### Languages Used
-  * HTML: Used to structure the web pages and create the user interface elements.
-  * CSS: Used to style the web pages and enhance the visual appeal of the application.
-  * JavaScript: Used to add interactivity and implement the quiz logic.
+
+- HTML: Used to structure the web pages and create the user interface elements.
+- CSS: Used to style the web pages and enhance the visual appeal of the application.
+- JavaScript: Used to add interactivity and implement the quiz logic.
 
 #### Framework, Libraries and Programs Used
-  * Bootstrap: Used as a CSS framework for responsive design and pre-built UI components.
-  * Adobe Photoshop (image editing): Used for editing and optimizing images for the web.
-  * Google Fonts (web fonts): Used to enhance the typography of the web application.
-  * GitHub: Used for version control and collaboration during the development process.
-  * GitHub Pages: Used for hosting the live website and making it accessible to users.
-  * Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
-  * Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
+
+- Bootstrap: Used as a CSS framework for responsive design and pre-built UI components.
+- Adobe Photoshop (image editing): Used for editing and optimizing images for the web.
+- Google Fonts (web fonts): Used to enhance the typography of the web application.
+- GitHub: Used for version control and collaboration during the development process.
+- GitHub Pages: Used for hosting the live website and making it accessible to users.
+- Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
+- Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
