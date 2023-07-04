@@ -1,6 +1,6 @@
 # knowledge Quiz
 
-![knowledge quiz](./assets/images/knowledgequiz.webp)
+![knowledge quiz](/assets/images/knowlegdequiz.webp)
 
 knowledge Quiz is a fun website for user test their knowledge.
 
