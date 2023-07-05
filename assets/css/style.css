@@ -361,3 +361,83 @@ footer {
         font-size: 20px;
     }
 }
+
+/* Media query for laptop, notebook, and desktop screens */
+@media only screen and (min-width: 1280px) {
+    .container {
+        width: 80%;
+        max-width: 800px;
+        padding: 40px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .intro {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rules-heading {
+        font-size: 25px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+
+    .rules-list {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .question-wrapper,
+    .answer-wrapper {
+        margin-top: 30px;
+    }
+
+    .timer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Media query for specific screen resolutions */
+@media only screen and (min-width: 1280px) and (max-width: 1920px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .name-input input[type="text"] {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .heading {
+        font-size: 45px;
+    }
+
+    .name-input input[type="text"] {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .heading {
+        font-size: 50px;
+    }
+
+    .name-input input[type="text"] {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 28px;
+    }
+}
