@@ -1,0 +1,16 @@
+# Ignore IDE and text editor files
+.vscode/
+.idea/
+
+# Ignore compiled and minified files
+*.min.css
+*.min.js
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json file
+package-lock.json
