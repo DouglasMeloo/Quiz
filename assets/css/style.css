@@ -309,7 +309,7 @@ footer {
 }
 
 /* Media query for small screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     .container {
         overflow: scroll;
         margin-top: 30px;
