@@ -6,11 +6,11 @@ knowledge Quiz is a fun website for user test their knowledge.
 
 ## Table of Contents
 
-- [Description](#description)
-- [Features](#features)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
+- [Description](#Description)
+- [Features](#Features)
+- [Deployment](#Deployment)
+- [Usage](#Usage)
+- [Technologies Used](#Technologies-Used)
 - [Testing](#testing)
 - [Debug](#debug)
 - [Contributing](#contributing)
@@ -24,7 +24,7 @@ During the quiz, you will see questions with multiple choice options, think quic
 The countdown timer adds excitement as you progress. After answering all questions, see your final score and maybe a fun comment. Play again to beat your score or challenge friends.
 The quiz has a user friendly interface, making it easy to enjoy and test your knowledge. Get ready to have fun and test your knowledge with the quiz!
 
-## features
+## Features
 
 - User friendly interface: The quiz has a simple and intuitive interface that makes it easy for users to navigate and enjoy the game.
 
@@ -92,7 +92,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 1. Access the Quiz application by visiting the live website: https://douglasmeloo.github.io/Quiz/.
 2. The Quiz homepage will be displayed, showing the game instructions and options to configure the quiz settings.
 
-#### Game Configuration
+### Game Configuration
 
 1. Enter the user name:
 
@@ -126,7 +126,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 - Click on the "Start Quiz" button to begin the game with the selected settings.
 - The first question will be displayed, along with multiple-choice options.
 
-#### Gameplay
+### Gameplay
 
 1. Answering questions:
 
