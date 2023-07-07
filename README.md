@@ -60,7 +60,7 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 - Name field restrictions: The name field in the quiz enforces a minimum character lenght of at least 4 characters. Numerical characters are not allowed and Special characters (e.g., symbols, punctuation) are not permitted.
   ![Name restrictions](/assets/images/namerestriction.webp)
 
-## Deployment 
+## Deployment
 
 To deploy the Quiz application, you can follow these steps:
 
@@ -177,9 +177,9 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies 
+## Technologies
 
-#### Technologies Used  <p align="right">[(Back to Top)](#top)</p>
+#### Technologies Used <p align="right">[(Back to Top)](#top)</p>
 
 - The Quiz application was developed using the following technologies and API:
 
@@ -197,9 +197,11 @@ Enjoy playing the Quiz application and have fun testing your knowledge! Challeng
 - GitHub: Used for version control and collaboration during the development process.
 - GitHub Pages: Used for hosting the live website and making it accessible to users.
 - Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
-- Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.  
+- Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
+- YouTube: Utilized as a source of learning and tutorials for various aspects of web development, including HTML, CSS, JavaScript.
 
-## Testing                           
+## Testing
+
 The web application has undergone a meticulous testing process, employing a diverse range of tools and techniques. This rigorous testing approach aims to guarantee the application's overall quality, performance, and adherence to industry standards. The following testing methodologies were carefully chosen and utilized during the evaluation phase:
 
 - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
@@ -272,7 +274,7 @@ Restart Quiz Button | Clicking on the "Restart Quiz" button redirects the user t
 
 By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
 
-## Debugging      
+## Debugging
 
 ### Score Display Issue for Correct Answers <p align="right">[(Back to Top)](#top)</p>
 
@@ -281,6 +283,7 @@ By conducting these tests, the web application was thoroughly examined for quali
 **Fix:** The code has been modified to properly increment the score and show the score on the end screen.
 
 Changes Made:
+
 - Modified the `checkAnswer()` function to correctly increment the score and add the 'correct' class to the selected answer.
 - Updated the `showScore()` function to display the correct score on the end screen.
 
@@ -291,6 +294,7 @@ Changes Made:
 **Fix:** The CSS file link in the HTML file has been updated from 'assets/css/style.css' to './assets/css/style.css' to ensure the link is relative to the current directory.
 
 Changes Made:
+
 - Changed the CSS file link in the HTML file to './assets/css/style.css' for proper loading.
 
 ### Console Warning about Permissions-Policy Header
@@ -300,6 +304,7 @@ Changes Made:
 **Fix Attempted:** The Permissions-Policy header in the server configuration has been updated to enable the 'interest-cohort' feature. However, the warning may persist due to potential limitations or specific configuration requirements of the feature.
 
 Next Steps:
+
 - Consult the relevant documentation or seek assistance from the platform or service provider to ensure proper configuration and enablement of the 'interest-cohort' feature.
 
 Despite this warning, the rest of the code has been tested and verified to be functioning correctly. Please refer to the documentation or seek further assistance to resolve the console warning related to the 'interest-cohort' feature.
@@ -307,24 +312,29 @@ Despite this warning, the rest of the code has been tested and verified to be fu
 ## Credits
 
 #### Credit <p align="right">[(Back to Top)](#top)</p>
+
 - Sources of Inspiration
-    * I drew inspiration from various YouTube videos on quiz game development.
+  - I drew inspiration from various YouTube videos on quiz game development.
 - Progress Bar Tutorials
+
   - I referred to the following videos to learn how to create a progress bar:
 
-    * Video 1: Progress Bar Tutorial - https://www.youtube.com/watch?v=uHVPAcaW1VQ
-    * Video 2: Progress Bar Tutorial - https://www.youtube.com/watch?v=js8YiWjrOrw
-    * Video 3: Progress Bar Tutorial - https://www.youtube.com/watch?v=basf1lH1H-E
+    - Video 1: Progress Bar Tutorial - https://www.youtube.com/watch?v=uHVPAcaW1VQ
+    - Video 2: Progress Bar Tutorial - https://www.youtube.com/watch?v=js8YiWjrOrw
+    - Video 3: Progress Bar Tutorial - https://www.youtube.com/watch?v=basf1lH1H-E
 
 #### Content API
+
 The questions, answers, categories, and levels used in this project were obtained from the Open Trivia Database (https://opentdb.com/).
 
 #### Acknowledgments
+
 I would like to express my gratitude to the following individuals:
 
 - Graeme Taylor: My mentor, whose guidance and support greatly contributed to the development of this project.
 - Bruno Farias: The person who introduced me to coding and encouraged me to pursue this course. He generously dedicated his time to guide me through my code, helping me understand and learn more.
-- Danilo Martins: A friend who started this course because of my influence. We have been studying together and supporting each other throughout this learning journey. 
+- Danilo Martins: A friend who started this course because of my influence. We have been studying together and supporting each other throughout this learning journey.
 
 #### Special Thanks
+
 I would like to extend a special thanks to my wife for her invaluable support throughout the development of this project. Her unwavering encouragement, understanding, and assistance in taking care of our two children, aged 4 and 1, allowed me to dedicate the necessary time and focus to bring this project to fruition. I am grateful for her love and patience, which made this endeavor possible.<p align="right">[(Back to Top)](#top)</p>

@@ -8,6 +8,7 @@ const progress = (value) => {
   progressBar.style.width = `${percentage}%`;
   progressText.innerHTML = `${value}`;
 };
+
 // Variables
 let questions = [],
   time = 30,
