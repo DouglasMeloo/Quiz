@@ -44,6 +44,8 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 
 - Replayability: After completing the quiz, users have the option to play again, either to improve their score or challenge their friends.
 
+- Error handling: In case a user tries to access a non-existent page, a custom 404 page is displayed. The 404 page provides a friendly message and includes a link to go back to the Quiz homepage.
+
 ## Deployment <p align="right">[(Back to Top)](#top)</p>
 
 To deploy the Quiz application, you can follow these steps:
