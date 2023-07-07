@@ -307,14 +307,14 @@ Despite this warning, the rest of the code has been tested and verified to be fu
 ## Credits
 
 #### Credit <p align="right">[(Back to Top)](#top)</p>
-Sources of Inspiration
-I drew inspiration from various YouTube videos on quiz game development.
-Progress Bar Tutorials
-I referred to the following videos to learn how to create a progress bar:
+- Sources of Inspiration
+    * I drew inspiration from various YouTube videos on quiz game development.
+- Progress Bar Tutorials
+  - I referred to the following videos to learn how to create a progress bar:
 
-Video 1: Progress Bar Tutorial - Part 1
-Video 2: Progress Bar Tutorial - Part 2
-Video 3: Progress Bar Tutorial - Part 3
+    * Video 1: Progress Bar Tutorial - https://www.youtube.com/watch?v=uHVPAcaW1VQ
+    * Video 2: Progress Bar Tutorial - https://www.youtube.com/watch?v=js8YiWjrOrw
+    * Video 3: Progress Bar Tutorial - https://www.youtube.com/watch?v=basf1lH1H-E
 
 #### Content API
 The questions, answers, categories, and levels used in this project were obtained from the Open Trivia Database (https://opentdb.com/).
@@ -322,9 +322,9 @@ The questions, answers, categories, and levels used in this project were obtaine
 #### Acknowledgments
 I would like to express my gratitude to the following individuals:
 
-Graeme Taylor: My mentor, whose guidance and support greatly contributed to the development of this project.
-Bruno Farias: The person who introduced me to coding and encouraged me to pursue this course. He generously dedicated his time to guide me through my code, helping me understand and learn more.
-Danilo Martins: A friend who started this course because of my influence. We have been studying together and supporting each other throughout this learning journey. 
+- Graeme Taylor: My mentor, whose guidance and support greatly contributed to the development of this project.
+- Bruno Farias: The person who introduced me to coding and encouraged me to pursue this course. He generously dedicated his time to guide me through my code, helping me understand and learn more.
+- Danilo Martins: A friend who started this course because of my influence. We have been studying together and supporting each other throughout this learning journey. 
 
 #### Special Thanks
 I would like to extend a special thanks to my wife for her invaluable support throughout the development of this project. Her unwavering encouragement, understanding, and assistance in taking care of our two children, aged 4 and 1, allowed me to dedicate the necessary time and focus to bring this project to fruition. I am grateful for her love and patience, which made this endeavor possible.<p align="right">[(Back to Top)](#top)</p>
