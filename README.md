@@ -11,11 +11,11 @@ knowledge Quiz is a fun website for user test their knowledge.
 - [Deployment](#Deployment)
 - [Usage](#Usage)
 - [Technologies Used](#Technologies-Used)
-- [Testing](#testing)
-- [Debug](#debug)
-- [Contributing](#contributing)
-- [File Organization](#file-organization)
-- [Credits](#credits)
+- [Testing](#Testing)
+- [Debug](#Debug)
+- [Contributing](#Contributing)
+- [File Organization](#File-Organization)
+- [Credits](#Credits)
 
 ## Description
 
@@ -25,30 +25,42 @@ The countdown timer adds excitement as you progress. After answering all questio
 The quiz has a user friendly interface, making it easy to enjoy and test your knowledge. Get ready to have fun and test your knowledge with the quiz!
 
 ## Features
-
+![interface](/assets/images/interface.webp)
 - User friendly interface: The quiz has a simple and intuitive interface that makes it easy for users to navigate and enjoy the game.
 
+![name](/assets/images/username.webp)
 - Personalized experience: Users can enter their names at the beginning of the quiz to create a more personalized and engaging experience.
 
-- Number of questions selection: Users have the flexibility to choose the number of questions in the quiz. They can select from a range of options, including 5, 10, 15, 20, 25, and 30 questions.
+![number of questions](/assets/images/numbquestion.webp)
+- Number of questions selection: Users have the flexibility to choose the number of questions in the quiz. They can select from a range of options, including 5, 10, 15 and 20 questions.
 
+![choose category](/assets/images/categories.webp)
 - Multiple question categories: The quiz offers a variety of question categories to choose from, allowing users to test their knowledge in their preferred areas of interest.
 
+![choose level](/assets/images/level.webp)
 - Adjustable difficulty levels: Users can select the difficulty level that suits their expertise, going from easy to hard, ensuring an appropriate level of difficulty for all players.
 
+![choose timer](/assets/images/time.webp)
+![countdown time](/assets/images/countdown.webp)
 - Timed gameplay: The quiz features a countdown timer that adds excitement and a sense of urgency to the game. Users can choose the duration of the countdown timer from a range of options, including 10, 20, 30, 40, 50, and 60 seconds. If the user does not answer a question within the allotted time, the correct answer will be displayed.
 
+![multiple choice question](/assets/images/questions.webp)
 - Multiple-choice questions: The quiz presents questions in a multiple-choice format, providing users with options to choose from and making the game more interactive and engaging.
 
+![right answer](/assets/images/rightanswer.webp)
+![wrong answer](/assets/images/wronganswer.webp)
+![final score](/assets/images/finalscore.webp)
 - Score tracking: The quiz keeps track of the user's score throughout the game, providing immediate feedback after each question. When a user selects the correct answer, it will be highlighted in green. If the user selects the wrong answer, it will be highlighted in red, and the correct answer will be displayed in highlighted green. The final score will be displayed at the end of the quiz.
 
+![restart quiz](/assets/images/restartquiz.webp)
 - Replayability: After completing the quiz, users have the option to play again, either to improve their score or challenge their friends.
 
+![404 page](/assets/images/errorpage.webp)
 - Error handling: In case a user tries to access a non-existent page, a custom 404 page is displayed. The 404 page provides a friendly message and includes a link to go back to the Quiz homepage.
 
 ## Deployment 
-
-To deploy the Quiz application, you can follow these steps: <p align="right">[(Back to Top)](#top)</p>
+<p align="right">[(Back to Top)](#top)</p>
+To deploy the Quiz application, you can follow these steps: 
 
 #### Fork the repository:
 
