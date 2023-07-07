@@ -10,7 +10,7 @@ knowledge Quiz is a fun website for user test their knowledge.
 - [Features](#Features)
 - [Deployment](#Deployment)
 - [Usage](#Usage)
-- [Technologies Used](#Technologies-Used)
+- [Technologies](#Technologies)
 - [Testing](#Testing)
 - [Debug](#Debug)
 - [Contributing](#Contributing)
@@ -177,9 +177,9 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies Used <p align="right">[(Back to Top)](#top)</p>
+## Technologies <p align="right">[(Back to Top)](#top)</p>
 
-#### Technologies  
+#### Technologies Used
 
 - The Quiz application was developed using the following technologies and API:
 
@@ -198,3 +198,23 @@ Enjoy playing the Quiz application and have fun testing your knowledge! Challeng
 - GitHub Pages: Used for hosting the live website and making it accessible to users.
 - Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
 - Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
+
+## Testing
+The web application has undergone a meticulous testing process, employing a diverse range of tools and techniques. This rigorous testing approach aims to guarantee the application's overall quality, performance, and adherence to industry standards. The following testing methodologies were carefully chosen and utilized during the evaluation phase:
+
+  - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
+  ![lighthouse](/assets/images/desktoptest.webp)
+  ![lighthouse](/assets/images/mobiletest.webp)
+
+  - JSHint test: The JavaScript code was validated using JSHint, a popular static code analysis tool. This analysis ensures that the code follows best practices, detects potential errors, and promotes code quality and maintainability.
+  ![JShint](/assets/images/jshinttest.webp)
+
+  - WAVE test (Web Accessibility Evaluation): The web application was subjected to the WAVE tool, which evaluates accessibility compliance based on the Web Content Accessibility Guidelines (WCAG). This test identifies any accessibility issues and provides recommendations for making the application more inclusive and accessible to all users.
+  ![WAVE](/assets/images/wavetest.webp)
+  ![WAVE-contrast](/assets/images/wavecontrast.webp)
+
+  - HTML and CSS validation: The HTML and CSS code was validated using the official W3C validators. These validators ensure that the code adheres to the standard specifications, minimizing potential rendering issues and enhancing cross-browser compatibility.
+  ![html](/assets/images/htmltest.webp)
+  ![css](/assets/images/csstest.webp)
+
+By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
