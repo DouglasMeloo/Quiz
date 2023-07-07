@@ -12,7 +12,7 @@ knowledge Quiz is a fun website for user test their knowledge.
 - [Usage](#Usage)
 - [Technologies](#Technologies)
 - [Testing](#Testing)
-- [Debug](#Debug)
+- [Debugging](#Debugging)
 - [Contributing](#Contributing)
 - [File Organization](#File-Organization)
 - [Credits](#Credits)
@@ -199,9 +199,9 @@ Enjoy playing the Quiz application and have fun testing your knowledge! Challeng
 - GitHub: Used for version control and collaboration during the development process.
 - GitHub Pages: Used for hosting the live website and making it accessible to users.
 - Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
-- Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
+- Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.  
 
-## Testing                                          <p align="right">[(Back to Top)](#top)</p>
+## Testing                           
 The web application has undergone a meticulous testing process, employing a diverse range of tools and techniques. This rigorous testing approach aims to guarantee the application's overall quality, performance, and adherence to industry standards. The following testing methodologies were carefully chosen and utilized during the evaluation phase:
 
 - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
@@ -231,7 +231,7 @@ The web application has undergone a meticulous testing process, employing a dive
   ![html](/assets/images/htmltest.webp)
   ![css](/assets/images/csstest.webp)
 
-### Manual Testing
+### Manual Testing <p align="right">[(Back to Top)](#top)</p>
 
 Desktop Pc:
 
@@ -274,7 +274,7 @@ Restart Quiz Button | Clicking on the "Restart Quiz" button redirects the user t
 
 By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
 
-## Debugging
+## Debugging       <p align="right">[(Back to Top)](#top)</p>
 
 ### Score Display Issue for Correct Answers
 
