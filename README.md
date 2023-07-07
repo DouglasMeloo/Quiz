@@ -273,3 +273,37 @@ Username and Score Display | The username and corresponding score are displayed 
 Restart Quiz Button | Clicking on the "Restart Quiz" button redirects the user to the home page of the quiz | The user completes the quiz and clicks on "Restart Quiz" | The user is redirected to the home page successfully | Pass
 
 By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
+
+## Debugging
+
+### Score Display Issue for Correct Answers
+
+**Issue:** The score was not being displayed correctly when the answer was correct.
+
+**Fix:** The code has been modified to properly increment the score and show the score on the end screen.
+
+Changes Made:
+- Modified the `checkAnswer()` function to correctly increment the score and add the 'correct' class to the selected answer.
+- Updated the `showScore()` function to display the correct score on the end screen.
+
+### GitHub Link Issue
+
+**Issue:** The website was not opening correctly in the GitHub link.
+
+**Fix:** The CSS file link in the HTML file has been updated from 'assets/css/style.css' to './assets/css/style.css' to ensure the link is relative to the current directory.
+
+Changes Made:
+- Changed the CSS file link in the HTML file to './assets/css/style.css' for proper loading.
+
+### Console Warning about Permissions-Policy Header
+
+**Issue:** A console warning is displayed regarding the Permissions-Policy header. The warning message indicates: "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'".
+
+**Fix Attempted:** The Permissions-Policy header in the server configuration has been updated to enable the 'interest-cohort' feature. However, the warning may persist due to potential limitations or specific configuration requirements of the feature.
+
+Next Steps:
+- Consult the relevant documentation or seek assistance from the platform or service provider to ensure proper configuration and enablement of the 'interest-cohort' feature.
+
+Despite this warning, the rest of the code has been tested and verified to be functioning correctly. Please refer to the documentation or seek further assistance to resolve the console warning related to the 'interest-cohort' feature.
+
+
