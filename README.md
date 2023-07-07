@@ -203,13 +203,13 @@ Enjoy playing the Quiz application and have fun testing your knowledge! Challeng
 The web application has undergone a meticulous testing process, employing a diverse range of tools and techniques. This rigorous testing approach aims to guarantee the application's overall quality, performance, and adherence to industry standards. The following testing methodologies were carefully chosen and utilized during the evaluation phase:
 
   - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
-    - Desktop Test:
+  - Desktop Test:
     * Performance: 99
     * Accessibility: 97
     * Best Practices: 100
     * SEO: 100
   ![lighthouse](/assets/images/desktoptest.webp)
-    - Mobile Test:
+  - Mobile Test:
     * Performance: 96
     * Accessibility: 97
     * Best Practices: 100
