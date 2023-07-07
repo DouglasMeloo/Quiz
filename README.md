@@ -204,8 +204,17 @@ The web application has undergone a meticulous testing process, employing a dive
 
   - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
   ![lighthouse](/assets/images/desktoptest.webp)
+  - Desktop Test:
+    * Performance: 99
+    * Accessibility: 97
+    * Best Practices: 100
+    * SEO: 100
   ![lighthouse](/assets/images/mobiletest.webp)
-
+  - Mobile Test:
+    * Performance: 96
+    * Accessibility: 97
+    * Best Practices: 100
+    * SEO: 100
   - JSHint test: The JavaScript code was validated using JSHint, a popular static code analysis tool. This analysis ensures that the code follows best practices, detects potential errors, and promotes code quality and maintainability.
   ![JShint](/assets/images/jshinttest.webp)
 
