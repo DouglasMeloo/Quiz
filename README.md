@@ -126,7 +126,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 - Click on the "Start Quiz" button to begin the game with the selected settings.
 - The first question will be displayed, along with multiple-choice options.
 
-### Gameplay
+### Gameplay     <p align="right">[(Back to Top)](#top)</p>
 
 1. Answering questions:
 
@@ -163,7 +163,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies
+## Technologies <p align="right">[(Back to Top)](#top)</p>
 
 #### Technologies Used
 
