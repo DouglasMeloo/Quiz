@@ -220,12 +220,34 @@ The web application has undergone a meticulous testing process, employing a dive
   ![JShint](/assets/images/jshinttest.webp)
 
   - WAVE test (Web Accessibility Evaluation): The web application was subjected to the WAVE tool, which evaluates accessibility compliance based on the Web Content Accessibility Guidelines (WCAG). This test identifies any accessibility issues and provides recommendations for making the application more inclusive and accessible to all users.
-  
+
   ![WAVE](/assets/images/wavetest.webp)
   ![WAVE-contrast](/assets/images/wavecontrast.webp)
 
   - HTML and CSS validation: The HTML and CSS code was validated using the official W3C validators. These validators ensure that the code adheres to the standard specifications, minimizing potential rendering issues and enhancing cross-browser compatibility.
   ![html](/assets/images/htmltest.webp)
   ![css](/assets/images/csstest.webp)
+
+### Manual Testing
+
+Desktop Pc: 
+  - Device: Desktop pc
+  - Operating System: Windows 11
+  - Browser: Google Chrome
+
+Mobile Device
+  - Devices: Iphone 14 proMax and Iphone 14 pro
+  - Operating System: IOS 16.5.1
+  - Browser: Safari 
+
+Feature               | Expected Outcome                     | Testing Performed                | Result            | Pass/Fail
+----------------------|--------------------------------------|----------------------------------|-------------------|------------------
+Name input | User clicks on "Enter your Name" | The entered name is displayed | The name field is filled | Pass
+Number of Questions | User selects one of the options: 5, 10, 15, or 20 | The chosen number of questions is recorded | The selected option is successfully passed | Pass
+Category Selection | User can choose one of the 10 available categories or leave on Any Category | The selected category (if any) is recorded | The selection process is successful | Pass
+Level Selection | User can choose any level: easy, medium, or hard | The selected level is recorded | The selection process is successful | Pass
+Time Selection | User can choose one of the 6 available time options: 10, 20, 30, 40, 50, or 60 seconds | The selected time option is recorded | The selection process is successful | Pass
+Start Quiz Button | When hovering over the button, it changes color to a pleasant green and displays "Start Quiz" | The button is hovered over | The hover effect is successful | Pass
+
 
 By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
