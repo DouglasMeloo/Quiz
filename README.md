@@ -61,8 +61,7 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 - Name field restrictions: The name field in the quiz enforces a minimum character lenght of at least 4 characters. Numerical characters are not allowed and Special characters      (e.g., symbols, punctuation) are not permitted.
 ![Name restrictions](/assets/images/namerestriction.webp)
 
-## Deployment 
-<p align="right">[(Back to Top)](#top)</p>
+## Deployment <p align="right">[(Back to Top)](#top)</p>
 To deploy the Quiz application, you can follow these steps: 
 
 #### Fork the repository:
