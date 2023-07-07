@@ -177,9 +177,9 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies
+## Technologies Used <p align="right">[(Back to Top)](#top)</p>
 
-#### Technologies Used <p align="right">[(Back to Top)](#top)</p>
+#### Technologies  
 
 - The Quiz application was developed using the following technologies and API:
 
