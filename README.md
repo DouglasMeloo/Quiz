@@ -240,6 +240,7 @@ Mobile Device
   - Operating System: IOS 16.5.1
   - Browser: Safari 
 
+`Home Page`
 Feature               | Expected Outcome                     | Testing Performed                | Result            | Pass/Fail
 ----------------------|--------------------------------------|----------------------------------|-------------------|------------------
 Name input | User clicks on "Enter your Name" | The entered name is displayed | The name field is filled | Pass
@@ -249,5 +250,19 @@ Level Selection | User can choose any level: easy, medium, or hard | The selecte
 Time Selection | User can choose one of the 6 available time options: 10, 20, 30, 40, 50, or 60 seconds | The selected time option is recorded | The selection process is successful | Pass
 Start Quiz Button | When hovering over the button, it changes color to a pleasant green and displays "Start Quiz" | The button is hovered over | The hover effect is successful | Pass
 
+`Questions Page`
+Feature               | Expected Outcome                     | Testing Performed                | Result            | Pass/Fail
+----------------------|--------------------------------------|----------------------------------|-------------------|------------------
+Answer Selection | User can choose one of the provided options as the answer and submit it | The user selects an answer and submits it | The selection and submission process is successful | Pass
+Countdown Timer | The countdown timer starts when the user clicks on "Start Quiz" | The user clicks on "Start Quiz" and observes the countdown timer | The countdown timer starts successfully | Pass
+Time Limit Handling | If the user fails to select an answer within the time limit, the correct answer is displayed in green highlight | The user allows the timer to run out without selecting an answer | The correct answer is highlighted and the user is prevented from selecting after the timer expires | Pass
+Correct Answer Highlight | When the user selects the correct answer, it is highlighted in green | The user selects the correct answer | The correct answer is highlighted in green | Pass
+Wrong Answer Handling | When the user selects a wrong answer, it is highlighted in red and the correct answer will be displayed in highlighted green | The user selects a wrong answer | The wrong answer is highlighted in red, and the correct answer is highlighted in green | Pass
+Submit and Next Buttons | The "Submit" button allows the user to submit their answer, and the "Next" button allows the user to proceed to the next question | The user clicks on "Submit" and "Next" buttons accordingly | The answers are successfully submitted, and the user can move to the next question | Pass 
+
+`Score Page`
+Score Page | After the quiz finishes, a score page is displayed | The quiz is completed | The score page is shown | Pass 
+Username and Score Display | The username and corresponding score are displayed on the score page | The score page is accessed after completing the quiz | The username and score are correctly displayed | Pass 
+Restart Quiz Button | Clicking on the "Restart Quiz" button redirects the user to the home page of the quiz | The user completes the quiz and clicks on "Restart Quiz" | The user is redirected to the home page successfully | Pass 
 
 By conducting these tests, the web application was thoroughly examined for quality assurance, performance optimization, accessibility compliance, and adherence to coding standards, ensuring a robust and reliable user experience.
