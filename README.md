@@ -220,6 +220,7 @@ The web application has undergone a meticulous testing process, employing a dive
   ![JShint](/assets/images/jshinttest.webp)
 
   - WAVE test (Web Accessibility Evaluation): The web application was subjected to the WAVE tool, which evaluates accessibility compliance based on the Web Content Accessibility Guidelines (WCAG). This test identifies any accessibility issues and provides recommendations for making the application more inclusive and accessible to all users.
+  
   ![WAVE](/assets/images/wavetest.webp)
   ![WAVE-contrast](/assets/images/wavecontrast.webp)
 
