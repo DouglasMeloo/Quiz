@@ -1,443 +1,443 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap");
 
 /* Global styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "roboto", sans-serif, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 /* Body Styles */
 body {
-    display: flex;
-    background: linear-gradient(to top, #c4c4c4, #6c6eeb);
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background: linear-gradient(to top, #c4c4c4, #6c6eeb);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Container styles */
 .container {
-    background-color: #5154eb;
-    width: 90%;
-    max-width: 500px;
-    position: relative;
-    overflow: hidden;
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  background-color: #5154eb;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
 /* Heading Styles */
 .heading {
-    color: #EBEBEB;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 50px;
+  color: #ebebeb;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .intro {
-    color: #EBEBEB;
-    font-size: 18px;
-    margin-bottom: 20px;
+  color: #ebebeb;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 .rules-heading {
-    color: #EBEBEB;
-    font-size: 25px;
-    margin-bottom: 10px;
+  color: #ebebeb;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
 .rules-list {
-    color: #EBEBEB;
-    font-size: 18px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    list-style-type: disc;
+  color: #ebebeb;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  list-style-type: disc;
 }
 
 /* Name Input Field */
 .name-input {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .name-input label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .name-input input[type="text"] {
-    background-color: #c4c4c4;
-    font-size: 15px;
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-    border: 1px solid #c4c4c4;
+  background-color: #c4c4c4;
+  font-size: 15px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  border: 1px solid #c4c4c4;
 }
 
 /* Label styles */
 label {
-    display: block;
-    color: #EBEBEB;
-    font-size: 18px;
-    margin-bottom: 5px;
-    text-transform: capitalize;
+  display: block;
+  color: #ebebeb;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
 }
 
 /* Select styles */
 select {
-    background-color: #c4c4c4;
-    color: #000;
-    font-size: 15px;
-    width: 100%;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    text-transform: capitalize;
+  background-color: #c4c4c4;
+  color: #000;
+  font-size: 15px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
 }
 
 /* Button styles */
 .btn {
-    background-color: #29854f;
-    color: #fff;
-    width: 100%;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 800;
-    margin-top: 50px;
-    cursor: pointer;
-    transition: all 0.2s linear;
+  background-color: #29854f;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: all 0.2s linear;
 }
 
 .btn:hover {
-    background-color: #1ac963;
+  background-color: #1ac963;
 }
 
 .btn:disabled {
-    background-color: #be1111;
-    cursor: not-allowed;
+  background-color: #be1111;
+  cursor: not-allowed;
 }
 
 /* Hide class */
 .hide {
-    display: none;
+  display: none;
 }
 
 .timer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100px;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .timer .progress {
-    background-color: transparent;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 35px;
-    margin-bottom: 25px;
-    border-radius: 15px;
-    border: 3px solid #c0b4b4;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  border: 3px solid #c0b4b4;
 }
 
 .timer .progress .progress-bar {
-    /* Progress bar color gradient */
-    background: linear-gradient(to right, #9d50e6, #d763e6);
-    transition: 1s linear;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+  /* Progress bar color gradient */
+  background: linear-gradient(to right, #9d50e6, #d763e6);
+  transition: 1s linear;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
 .timer .progress .progress-text {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 800;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Question wrapper styles */
 .question-wrapper .number {
-    color: #EBEBEB;
-    font-size: 25px;
-    font-weight: 800;
-    margin-bottom: 20px;
+  color: #ebebeb;
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .question-wrapper .number .total {
-    color: #8d8d8d;
-    font-size: 19px;
+  color: #8d8d8d;
+  font-size: 19px;
 }
 
 .question-wrapper .question {
-    color: #EBEBEB;
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 20px;
+  color: #ebebeb;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 /* Answer wrapper styles */
 .answer-wrapper .answer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #EBEBEB;
-    width: 100%;
-    height: 60px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 3px solid #c0b4b4;
-    margin-bottom: 20px;
-    cursor: pointer;
-    transition: 0.3s linear;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ebebeb;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #c0b4b4;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s linear;
 }
 
 .answer .checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 3px solid #c0b4b4;
-    transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid #c0b4b4;
+  transition: all 0.3s;
 }
 
 .answer .checkbox .icon {
-    opacity: 0;
+  opacity: 0;
 }
 
 .answer:hover:not(.checked) .checkbox,
 .answer.selected .checkbox {
-    /* Checkbox background color and border color when hovered or selected*/
-    background-color: #1ac963;
-    border-color: #1ac963;
+  /* Checkbox background color and border color when hovered or selected*/
+  background-color: #1ac963;
+  border-color: #1ac963;
 }
 
 .answer.selected .checkbox .icon {
-    opacity: 1;
-    font-size: 20px;
-    font-weight: 900;
+  opacity: 1;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .answer.correct {
-    /* Border color for correct answer */
-    border-color: #1ac963;
+  /* Border color for correct answer */
+  border-color: #1ac963;
 }
 
 .answer.wrong {
-    /* Border color for wrong answer */
-    border-color: #d81616;
+  /* Border color for wrong answer */
+  border-color: #d81616;
 }
 
 .question-wrapper,
 .answer-wrapper {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 /* Next btn style */
 .btn.next {
-    display: none;
+  display: none;
 }
 
 /* End screen styles */
 .end-screen .score {
-    color: #fff;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 30px;
-    font-weight: 500;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .end-screen .score-text {
-    color: #EBEBEB;
-    font-size: 25px;
-    margin-bottom: 110px;
+  color: #ebebeb;
+  font-size: 25px;
+  margin-bottom: 110px;
 }
 
 .end-screen {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .end-screen h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .end-screen p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* Footer styles*/
 footer {
-    background-color: #5154eb;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    padding: 10px 0;
+  background-color: #5154eb;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
 }
 
 .footer-links {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-links a {
-    color: #EBEBEB;
-    text-decoration: none;
-    font-size: 25px;
-    margin: 0 10px;
+  color: #ebebeb;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 10px;
 }
 
 .footer-links a:hover {
-    color: #fff;
+  color: #fff;
 }
 
 /* Media query for small screens */
 @media only screen and (max-width: 768px) {
-    .container {
-        overflow: scroll;
-        margin-top: 30px;
-        margin-bottom: 80px;
-    }
+  .container {
+    overflow: scroll;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
 
-    .intro {
-        font-size: 18px;
-        margin-bottom: 15px;
-    }
+  .intro {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
 
-    .rules-heading {
-        font-size: 20px;
-        margin-bottom: 10px;
-        margin-top: 30px;
-    }
+  .rules-heading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
 
-    .rules-list {
-        font-size: 18px;
-        margin-bottom: 35px;
-    }
+  .rules-list {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
 
-    .question-wrapper,
-    .answer-wrapper {
-        margin-top: 5px;
-    }
+  .question-wrapper,
+  .answer-wrapper {
+    margin-top: 5px;
+  }
 
-    .timer {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+  .timer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
 /* Additional styles for mobile screens */
 @media only screen and (max-width: 400px) {
-    .container {
-        padding: 20px;
-    }
+  .container {
+    padding: 20px;
+  }
 
-    .heading {
-        font-size: 40px;
-    }
+  .heading {
+    font-size: 40px;
+  }
 
-    .name-input input[type="text"] {
-        font-size: 14px;
-    }
+  .name-input input[type="text"] {
+    font-size: 14px;
+  }
 
-    .btn {
-        font-size: 20px;
-    }
+  .btn {
+    font-size: 20px;
+  }
 }
 
 /* Media query for laptop, notebook, and desktop screens */
 @media only screen and (min-width: 1280px) {
-    .container {
-        width: 80%;
-        max-width: 800px;
-        padding: 40px;
-        margin-top: 50px;
-        margin-bottom: 100px;
-    }
+  .container {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
 
-    .intro {
-        font-size: 20px;
-        margin-bottom: 20px;
-    }
+  .intro {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
 
-    .rules-heading {
-        font-size: 25px;
-        margin-bottom: 15px;
-        margin-top: 50px;
-    }
+  .rules-heading {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
 
-    .rules-list {
-        font-size: 22px;
-        margin-bottom: 50px;
-    }
+  .rules-list {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
 
-    .question-wrapper,
-    .answer-wrapper {
-        margin-top: 30px;
-    }
+  .question-wrapper,
+  .answer-wrapper {
+    margin-top: 30px;
+  }
 
-    .timer {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+  .timer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 /* Media query for specific screen resolutions */
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
-    .heading {
-        font-size: 40px;
-    }
+  .heading {
+    font-size: 40px;
+  }
 
-    .name-input input[type="text"] {
-        font-size: 16px;
-    }
+  .name-input input[type="text"] {
+    font-size: 16px;
+  }
 
-    .btn {
-        font-size: 24px;
-    }
+  .btn {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 1920px) and (max-width: 2560px) {
-    .heading {
-        font-size: 45px;
-    }
+  .heading {
+    font-size: 45px;
+  }
 
-    .name-input input[type="text"] {
-        font-size: 18px;
-    }
+  .name-input input[type="text"] {
+    font-size: 18px;
+  }
 
-    .btn {
-        font-size: 26px;
-    }
+  .btn {
+    font-size: 26px;
+  }
 }
 
 @media only screen and (min-width: 2560px) {
-    .heading {
-        font-size: 50px;
-    }
+  .heading {
+    font-size: 50px;
+  }
 
-    .name-input input[type="text"] {
-        font-size: 20px;
-    }
+  .name-input input[type="text"] {
+    font-size: 20px;
+  }
 
-    .btn {
-        font-size: 28px;
-    }
+  .btn {
+    font-size: 28px;
+  }
 }
