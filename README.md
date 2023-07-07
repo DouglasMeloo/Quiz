@@ -261,6 +261,8 @@ Wrong Answer Handling | When the user selects a wrong answer, it is highlighted 
 Submit and Next Buttons | The "Submit" button allows the user to submit their answer, and the "Next" button allows the user to proceed to the next question | The user clicks on "Submit" and "Next" buttons accordingly | The answers are successfully submitted, and the user can move to the next question | Pass 
 
 `Score Page`
+Feature               | Expected Outcome                     | Testing Performed                | Result            | Pass/Fail
+----------------------|--------------------------------------|----------------------------------|-------------------|------------------
 Score Page | After the quiz finishes, a score page is displayed | The quiz is completed | The score page is shown | Pass 
 Username and Score Display | The username and corresponding score are displayed on the score page | The score page is accessed after completing the quiz | The username and score are correctly displayed | Pass 
 Restart Quiz Button | Clicking on the "Restart Quiz" button redirects the user to the home page of the quiz | The user completes the quiz and clicks on "Restart Quiz" | The user is redirected to the home page successfully | Pass 
