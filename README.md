@@ -46,9 +46,9 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 
 - Error handling: In case a user tries to access a non-existent page, a custom 404 page is displayed. The 404 page provides a friendly message and includes a link to go back to the Quiz homepage.
 
-## Deployment <p align="right">[(Back to Top)](#top)</p>
+## Deployment 
 
-To deploy the Quiz application, you can follow these steps:
+To deploy the Quiz application, you can follow these steps: <p align="right">[(Back to Top)](#top)</p>
 
 #### Fork the repository:
 
@@ -76,9 +76,9 @@ To deploy the Quiz application, you can follow these steps:
 - Wait for a few minutes for the changes to take effect.
 - Visit the live website provided, https://douglasmeloo.github.io/Quiz/, to access the deployed Quiz application.
 
-## Usage <p align="right">[(Back to Top)](#top)</p>
+## Usage 
 
-### Quiz Application - Usage
+### Quiz Application - Usage <p align="right">[(Back to Top)](#top)</p>
 
 The Quiz application is a fun and interactive quiz game where users can test their knowledge on various topics. This file provides instructions on how to use the application effectively.
 
@@ -163,9 +163,9 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 Enjoy playing the Quiz application and have fun testing your knowledge! Challenge yourself with different question quantities, level difficulties and time limits to enhance your quiz experience.
 
-## Technologies ####<p align="right">[(Back to Top)](#top)</p>
+## Technologies
 
-#### Technologies Used
+#### Technologies Used <p align="right">[(Back to Top)](#top)</p>
 
 - The Quiz application was developed using the following technologies and API:
 
