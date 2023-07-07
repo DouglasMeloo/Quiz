@@ -58,6 +58,9 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 - Error handling: In case a user tries to access a non-existent page, a custom 404 page is displayed. The 404 page provides a friendly message and includes a link to go back to the Quiz homepage.
 ![404 page](/assets/images/errorpage.webp)
 
+- Name field restrictions: The name field in the quiz enforces a minimum character lenght of at least 4 characters. Numerical characters are not allowed and Special characters      (e.g., symbols, punctuation) are not permitted.
+![Name restrictions](/assets/images/namerestriction.webp)
+
 ## Deployment 
 <p align="right">[(Back to Top)](#top)</p>
 To deploy the Quiz application, you can follow these steps: 
