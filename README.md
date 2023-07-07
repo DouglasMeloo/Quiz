@@ -304,7 +304,7 @@ Next Steps:
 
 Despite this warning, the rest of the code has been tested and verified to be functioning correctly. Please refer to the documentation or seek further assistance to resolve the console warning related to the 'interest-cohort' feature.
 
-## Credit 
+## Credits
 
 #### Credit <p align="right">[(Back to Top)](#top)</p>
 Sources of Inspiration
