@@ -199,7 +199,7 @@ Enjoy playing the Quiz application and have fun testing your knowledge! Challeng
 - Meta Tags Generator (HTML meta tags): Used to generate HTML meta tags for search engine optimization (SEO) and social media sharing.
 - Trivia API: Used to fetch the quiz questions and answers dynamically from an external data source.
 
-## Testing
+## Testing <p align="right">[(Back to Top)](#top)</p>
 The web application has undergone a meticulous testing process, employing a diverse range of tools and techniques. This rigorous testing approach aims to guarantee the application's overall quality, performance, and adherence to industry standards. The following testing methodologies were carefully chosen and utilized during the evaluation phase:
 
   - Lighthouse test (Google Inspect): The web application was evaluated using Lighthouse, a tool integrated within Google Inspect, to assess its performance, accessibility, best practices, and search engine optimization (SEO). This test helps identify areas for improvement and optimization.
