@@ -318,6 +318,16 @@ Changes Made:
 
 - Changed the CSS file link in the HTML file to './assets/css/style.css' for proper loading.
 
+### Known Issues
+I used the https://responsivedesignchecker.com/ to do the Test.
+The following devices and resolutions have known display issues:
+
+- 13" notebook (1024 x 800)
+- 10" notebook (1024 x 600)
+- Tablet (Nexus 9, 1024 x 768)
+
+I have encountered difficulties in properly adjusting the styles for these devices and resolutions. As a result, the layout may not appear as intended, and there might be issues with the container's top/bottom spacing. I apologize for any inconvenience this may cause.
+
 ### Console Warning about Permissions-Policy Header
 
 **Issue:** A console warning is displayed regarding the Permissions-Policy header. The warning message indicates: "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'".
