@@ -313,7 +313,7 @@ footer {
   .container {
     overflow: scroll;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 30px; /* Adjusted margin */
   }
 
   .intro {
@@ -401,6 +401,7 @@ footer {
 
 /* Media query for specific screen resolutions */
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  /* 13" notebook 1024 x 800 */
   .heading {
     font-size: 35px;
   }
@@ -415,6 +416,7 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 600px) {
+  /* 10" notebook 1024 x 600 */
   .heading {
     font-size: 35px;
   }
@@ -429,6 +431,7 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 768px) {
+  /* Nexus 9 tablet 1024 x 768 */
   .heading {
     font-size: 35px;
   }
@@ -483,4 +486,5 @@ footer {
     font-size: 28px;
   }
 }
+
 
