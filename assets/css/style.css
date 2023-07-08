@@ -313,55 +313,45 @@ footer {
   .container {
     overflow: scroll;
     margin-top: 30px;
-    margin-bottom: 30px; /* Adjusted margin */
+    margin-bottom: 80px;
   }
-
   .intro {
     font-size: 18px;
     margin-bottom: 15px;
   }
-
   .rules-heading {
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 30px;
   }
-
   .rules-list {
     font-size: 18px;
     margin-bottom: 35px;
   }
-
   .question-wrapper,
   .answer-wrapper {
     margin-top: 5px;
   }
-
   .timer {
     margin-top: 5px;
     margin-bottom: 5px;
   }
 }
-
 /* Additional styles for mobile screens */
 @media only screen and (max-width: 400px) {
   .container {
     padding: 20px;
   }
-
   .heading {
     font-size: 40px;
   }
-
   .name-input input[type="text"] {
     font-size: 14px;
   }
-
   .btn {
     font-size: 20px;
   }
 }
-
 /* Media query for laptop, notebook, and desktop screens */
 @media only screen and (min-width: 1280px) {
   .container {
@@ -371,117 +361,58 @@ footer {
     margin-top: 50px;
     margin-bottom: 100px;
   }
-
   .intro {
     font-size: 20px;
     margin-bottom: 20px;
   }
-
   .rules-heading {
     font-size: 25px;
     margin-bottom: 15px;
     margin-top: 50px;
   }
-
   .rules-list {
     font-size: 22px;
     margin-bottom: 50px;
   }
-
   .question-wrapper,
   .answer-wrapper {
     margin-top: 30px;
   }
-
   .timer {
     margin-top: 30px;
     margin-bottom: 30px;
   }
 }
-
 /* Media query for specific screen resolutions */
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  /* 13" notebook 1024 x 800 */
-  .heading {
-    font-size: 35px;
-  }
-
-  .name-input input[type="text"] {
-    font-size: 16px;
-  }
-
-  .btn {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 600px) {
-  /* 10" notebook 1024 x 600 */
-  .heading {
-    font-size: 35px;
-  }
-
-  .name-input input[type="text"] {
-    font-size: 16px;
-  }
-
-  .btn {
-    font-size: 22px;
-  }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 768px) {
-  /* Nexus 9 tablet 1024 x 768 */
-  .heading {
-    font-size: 35px;
-  }
-
-  .name-input input[type="text"] {
-    font-size: 16px;
-  }
-
-  .btn {
-    font-size: 22px;
-  }
-}
-
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
   .heading {
     font-size: 40px;
   }
-
   .name-input input[type="text"] {
     font-size: 16px;
   }
-
   .btn {
     font-size: 24px;
   }
 }
-
 @media only screen and (min-width: 1920px) and (max-width: 2560px) {
   .heading {
     font-size: 45px;
   }
-
   .name-input input[type="text"] {
     font-size: 18px;
   }
-
   .btn {
     font-size: 26px;
   }
 }
-
 @media only screen and (min-width: 2560px) {
   .heading {
     font-size: 50px;
   }
-
   .name-input input[type="text"] {
     font-size: 20px;
   }
-
   .btn {
     font-size: 28px;
   }
