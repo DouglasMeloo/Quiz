@@ -1,4 +1,4 @@
-# knowledge Quiz
+# Knowledge Quiz
 
 ![knowledge quiz](/assets/images/knowlegdequiz.webp)
 
