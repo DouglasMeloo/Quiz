@@ -8,6 +8,7 @@ knowledge Quiz is a fun website for user test their knowledge.
 
 - [Description](#Description)
 - [Features](#Features)
+- [User-Stories](User-Stories)
 - [Deployment](#Deployment)
 - [Usage](#Usage)
 - [Technologies](#Technologies)
@@ -59,6 +60,26 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 
 - Name field restrictions: The name field in the quiz enforces a minimum character lenght of at least 4 characters. Numerical characters are not allowed and Special characters (e.g., symbols, punctuation) are not permitted.
   ![Name restrictions](/assets/images/namerestriction.webp)
+
+## User Stories
+To provide a better understanding of the quiz application's features and their relevance to the target audience, user stories have been created. These user stories highlight the necessity of each feature and how they cater to the needs and goals of the users. Here are some user stories:
+
+#### First Time Visitor Goals
+   - As a trivia enthusiast, I want to easily understand the purpose of the quiz and how it works, so that I can quickly engage and test my knowledge.
+   - As a curious learner, I want to navigate through the quiz easily and find the necessary information, so that I can start playing without any confusion.
+   - As a first-time user, I want to quickly start the quiz and select my preferred settings, so that I can personalize my experience and challenge myself.
+
+#### Returning Visitor Goals
+   - As a trivia lover, I want to beat my previous score and improve my knowledge, so that I can track my progress and feel a sense of accomplishment.
+   - As a competitive player, I want to challenge my friends and compare our scores, so that we can engage in friendly competition and see who has the highest knowledge.
+   - As a returning visitor, I want to quickly start a new quiz with different settings, so that I can enjoy a fresh and varied quiz experience each time.
+
+#### Frequent User Goals
+   - As a knowledge seeker, I want to explore various question categories to broaden my knowledge, so that I can test my expertise in different areas.
+   - As a dedicated learner, I want to test my skills across different difficulty levels and track my progress, so that I can continuously challenge myself and improve my knowledge.
+   - As a quiz enthusiast, I want to enjoy the thrill of timed gameplay to enhance the challenge and excitement, so that I can push my limits and experience the adrenaline rush of answering questions under time pressure.
+
+These user stories demonstrate the importance of each feature in enhancing the quiz experience and meeting the expectations and desires of the target audience. By incorporating these features, the quiz application aims to provide an engaging, personalized, and competitive environment for users to test their knowledge and have fun.
 
 ## Deployment
 
