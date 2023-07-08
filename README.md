@@ -252,6 +252,11 @@ The web application has undergone a meticulous testing process, employing a dive
   ![html](/assets/images/htmltest.webp)
   ![css](/assets/images/csstest.webp)
 
+- Device and Resolution Testing:
+The web application was tested for various devices and resolutions using the Responsive Design Checker tool. This tool allows for evaluating the application's responsiveness and appearance across different screen sizes and devices, including smartphones, tablets, laptops, and desktops.
+https://responsivedesignchecker.com/
+![responsivechecker](/assets/images/devicetest.webp)
+
 ### Manual Testing <p align="right">[(Back to Top)](#top)</p>
 
 Desktop Pc:
