@@ -6,15 +6,15 @@ knowledge Quiz is a fun website for user test their knowledge.
 
 ## Table of Contents
 
-- [Description](#Description)
-- [Features](#Features)
-- [User-Stories](User-Stories)
-- [Deployment](#Deployment)
-- [Usage](#Usage)
-- [Technologies](#Technologies)
-- [Testing](#Testing)
-- [Debugging](#Debugging)
-- [Credits](#Credits)
+- [Description](#description)
+- [Features](#features)
+- [User Stories](#user-stories)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Testing](#testing)
+- [Debugging](#debugging)
+- [Credits](#credits)
 
 ## Description
 
@@ -61,10 +61,10 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 - Name field restrictions: The name field in the quiz enforces a minimum character lenght of at least 4 characters. Numerical characters are not allowed and Special characters (e.g., symbols, punctuation) are not permitted.
   ![Name restrictions](/assets/images/namerestriction.webp)
 
-## User Stories
+## User Stories 
 To provide a better understanding of the quiz application's features and their relevance to the target audience, user stories have been created. These user stories highlight the necessity of each feature and how they cater to the needs and goals of the users. Here are some user stories:
 
-#### First Time Visitor Goals
+#### First Time Visitor Goals <p align="right">[(Back to Top)](#top)</p>
    - As a trivia enthusiast, I want to easily understand the purpose of the quiz and how it works, so that I can quickly engage and test my knowledge.
    - As a curious learner, I want to navigate through the quiz easily and find the necessary information, so that I can start playing without any confusion.
    - As a first-time user, I want to quickly start the quiz and select my preferred settings, so that I can personalize my experience and challenge myself.
