@@ -30,7 +30,7 @@ The quiz has a user friendly interface, making it easy to enjoy and test your kn
 - Personalized experience: Users can enter their names at the beginning of the quiz to create a more personalized and engaging experience.
   ![name](/assets/images/username.webp)
 
-- Number of questions selection: Users have the flexibility to choose the number of questions in the quiz. They can select from a range of options, including 5, 10, 15 and 20 questions.
+- Number of questions selection: Users have the flexibility to choose the number of questions in the quiz. They can select from a range of options, including 5, 10 and 15 questions.
   ![number of questions](/assets/images/numbquestion.webp)
 
 - Multiple question categories: The quiz offers a variety of question categories to choose from, allowing users to test their knowledge in their preferred areas of interest.
@@ -135,7 +135,7 @@ The Quiz application is a fun and interactive quiz game where users can test the
 
 2. Choose the number of questions:
 
-- Select the desired number of questions from the dropdown menu (5, 10, 15 or 20).
+- Select the desired number of questions from the dropdown menu (5, 10 or 15).
 - This determines the total number of questions the quiz will include.
 
 3. Choose the category:
@@ -274,7 +274,7 @@ Mobile Device
 Feature | Expected Outcome | Testing Performed | Result | Pass/Fail
 ----------------------|--------------------------------------|----------------------------------|-------------------|------------------
 Name input | User clicks on "Enter your Name" | The entered name is displayed | The name field is filled | Pass
-Number of Questions | User selects one of the options: 5, 10, 15, or 20 | The chosen number of questions is recorded | The selected option is successfully passed | Pass
+Number of Questions | User selects one of the options: 5, 10 or 15 | The chosen number of questions is recorded | The selected option is successfully passed | Pass
 Category Selection | User can choose one of the 10 available categories or leave on Any Category | The selected category (if any) is recorded | The selection process is successful | Pass
 Level Selection | User can choose any level: easy, medium, or hard | The selected level is recorded | The selection process is successful | Pass
 Time Selection | User can choose one of the 6 available time options: 10, 20, 30, 40, 50, or 60 seconds | The selected time option is recorded | The selection process is successful | Pass
