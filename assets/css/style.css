@@ -400,6 +400,48 @@ footer {
 }
 
 /* Media query for specific screen resolutions */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .name-input input[type="text"] {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 600px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .name-input input[type="text"] {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) and (height: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+
+  .name-input input[type="text"] {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 22px;
+  }
+}
+
 @media only screen and (min-width: 1280px) and (max-width: 1920px) {
   .heading {
     font-size: 40px;
@@ -441,3 +483,4 @@ footer {
     font-size: 28px;
   }
 }
+
