@@ -368,7 +368,7 @@ I would like to express my gratitude to the following individuals:
 
 - Graeme Taylor: My mentor, whose guidance and support greatly contributed to the development of this project.
 - Bruno Farias: The person who introduced me to coding and encouraged me to pursue this course. He generously dedicated his time to guide me through my code, helping me understand and learn more.
-- Danilo Martins: A friend who started this course because of my influence. We have been studying together and supporting each other throughout this learning journey.
+- Danilo Martins: A close friend who joined this course out of genuine interest. We've been studying together, supporting and encouraging each other throughout our learning journey.
 
 #### Special Thanks
 
